@@ -13,7 +13,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 * [Datasets](#datasets)
 * [Algortihms](#algortihms)
-  + [deep learning](#deep-learning)
+  + [Non-learning-based methods](#Non-learning-based methods)
+  + [Learning-based methods](#Learning-based methods)
+  + [Related methods](#Related methods)
 
 - [Reference](#reference)
 
@@ -24,9 +26,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 |        VIP-LowLight        |  Eight Natural Images Captured in Very Low-Light Conditions  | https://uwaterloo.ca/vision-image-processing-lab/research-demos/vip-lowlight-dataset |
 |           ReNOIR           | RENOIR - A Dataset for Real Low-Light Image Noise Reduction  | [http://ani.stat.fsu.edu/~abarbu/Renoir.html](http://adrianbarburesearch.blogspot.com/p/renoir-dataset.html) |
 | Raw Image Low-Light Object |                              -                               |        https://wiki.qut.edu.au/display/cyphy/Datasets        |
-|            SID             |                 Learning to see in the dark                  | http://vladlen.info/publications/learning-see-dark （including codes） |
+|            SID             | Learning to see in the dark; <br />light level (outdoor scene 0.2 lux - 5 lux; indoor scene: 0.03 lux - 0.3 lux) | http://vladlen.info/publications/learning-see-dark （including codes） |
 |           ExDARK           | Getting to Know Low-light Images with The Exclusively Dark Dataset | https://github.com/cs-chan/Exclusively-Dark-Image-Dataset （including codes） |
-|          MIT-FivK          | Learning Photographic Global Tonal Adjustment with a Database of Input / Output Image Pairs |          https://data.csail.mit.edu/graphics/fivek           |
+|      MIT-Adobe FiveK       | Learning Photographic Global Tonal Adjustment with a Database of Input / Output Image Pairs<br />(with ~4% low light images) |          https://data.csail.mit.edu/graphics/fivek           |
 |       LRAICE-Dataset       |   A Learning-to-Rank Approach for Image Color Enhancement    |                              -                               |
 |     The 500px Dataset      |    Exposure: A White-Box Photo Post-Processing Framework     |                              -                               |
 |            DPED            | DSLR-quality photos on mobile devices with deep convolutional networks |              http://people.ee.ethz.ch/~ihnatova              |
@@ -35,19 +37,27 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 
 ## Algorithms
-### deep learning
+### Non-Learning-based methods
+
+- **LIME** 
+- **A New Low-Light Image Enhancement Algorithm Using Camera Response Model** [[Pdf]](http://ieeexplore.ieee.org/document/8265567/) 
+  * Z. Ying, G. Li, Y. Ren, R. Wang and W. Wang, "A New Low-Light Image Enhancement Algorithm Using Camera Response Model," *2017 IEEE International Conference on Computer Vision Workshops (ICCVW)*, Venice, 2017
+
+### Learning-based methods
+
 * **MSR-net** [[Pdf]](https://arxiv.org/pdf/1711.02488v1.pdf)
   * L. Shen, Z. Yue, F. Feng, Q. Chen, S. Liu, and J. Ma, “MSR-net:Low-light Image Enhancement Using Deep Convolutional Network,” *arXiv:1711.02488 [cs]*, Nov. 2017
 * **Deep Burst Denoising** [[Pdf]](http://arxiv.org/abs/1712.05790)
   * C. Godard, K. Matzen, and M. Uyttendaele, “Deep Burst Denoising,” *arXiv:1712.05790 [cs, stat]*, Dec. 2017 
 * **LLCNN** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305143)
   * L. Tao, C. Zhu, G. Xiang, Y. Li, H. Jia and X. Xie, "LLCNN: A convolutional neural network for low-light image enhancement," *2017 IEEE Visual Communications and Image Processing (VCIP)*, St. Petersburg, FL, 2017
-* **Deep bilateral learning for real-time image enhancement** [[Pdf]](https://arxiv.org/abs/1707.02880)
+* **Deep bilateral learning for real-time image enhancement** [[Web]](https://groups.csail.mit.edu/graphics/hdrnet/) [[Code]](https://github.com/google/hdrnet) [[Pdf]](https://arxiv.org/abs/1707.02880)
   * M. Gharbi, J. Chen, J. T. Barron, S. W. Hasinoff, and F. Durand, “Deep bilateral learning for real-time image enhancement,” *ACM Trans. Graph.*, vol. 36, no. 4, pp. 1–12, Jul. 2017
 * **DSLR Quality Photos on Mobile Devices with Deep Convolutional Networks**  [[Pdf]](https://arxiv.org/abs/1704.02470)
   * A. Ignatov, N. Kobyshev, R. Timofte and K. Vanhoey, "DSLR-Quality Photos on Mobile Devices with Deep Convolutional Networks," *2017 IEEE International Conference on Computer Vision (ICCV)*, Venice, 2017
  * **Retinex-Net** [[Web]](https://daooshee.github.io/BMVC2018website/) [[Code]](https://github.com/weichen582/RetinexNet) [[Pdf]](https://arxiv.org/abs/1808.04560)
    * C. Wei, W. Wang, W. Yang, and J. Liu,"Deep Retinex Decomposition for Low-Light Enhancement." *BMVC 2018*, Oral Presentation.
+   * :bookmark: retinex
 * **Learning to See in the Dark** [[Web]](https://cchen156.github.io/SID.html) [[Code]](https://github.com/cchen156/Learning-to-See-in-the-Dark.git) [[Pdf]](https://cchen156.github.io/paper/18CVPR_SID.pdf)
   * C. Chen, Q. Chen, J. Xu, and V. Koltun, “Learning to See in the Dark,” *CVPR 2018*, May 2018
   * real  [dataset](https://github.com/cchen156/Learning-to-See-in-the-Dark)
@@ -66,10 +76,14 @@ Low light imaging and low light image enhancement have wild applications in our 
   * E. Schwartz, R. Giryes, and A. M. Bronstein, “DeepISP: Towards Learning an End-to-End Image Processing Pipeline,” *IEEE Trans. on Image Process.*, vol. 28, no. 2, pp. 912–923, Feb. 2019
 * **DeepUPE** [[Code]](https://github.com/wangruixing/DeepUPE) [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8953588)
   * R. Wang, Q. Zhang, C. Fu, X. Shen, W. Zheng and J. Jia, "Underexposed Photo Enhancement Using Deep Illumination Estimation," *2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Long Beach, CA, USA, 2019
+  * :bookmark: retinex
+* **Low-Light Image Enhancement via a Deep Hybrid Network**  [[Pdf]](https://ieeexplore.ieee.org/document/8692732)
+  * W. Ren *et al*., "Low-Light Image Enhancement via a Deep Hybrid Network," in *IEEE Transactions on Image Processing*, vol. 28, no. 9, pp. 4364-4375, Sept. 2019
 
+### Related methods
 
-
-
+-  **Automatic Photo Adjustment Using Deep Neural Networks** [[Web]](https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust) [[Code]](https://github.com/stephenyan1984/dl-image-enhance/wiki) [[Pdf]](https://arxiv.org/abs/1412.7725v2)
+  - Z. Yan, H. Zhang, B. Wang, S. Paris, and Y. Yu, “Automatic Photo Adjustment Using Deep Neural Networks,” *ACM Transactions on Graphics*, 2015.
 
 ## Reference
 
