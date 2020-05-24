@@ -1,10 +1,11 @@
-# resource-for-low-light-imaging
+# Resource for Low Light Imaging & Low Light Image Enhancement
 **This is a list of resouces for low light imaging and low light image enhancement, including datasets, algorithms and so on.**
 
+**Maintained by:** **[Zhihong Zhang](mailto:z_zhi_hong.com) **
 
-## Low light imaging and low light image enhancement
+## Introduction
 
-
+Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like, night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with this task, considering the great challenges in low photon counts, low SNR, complicated noise model, etc. Here, we collect a list of resources which are related to low light imaging and low light image enhancement, including datasets, algorithms and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light imaging tasks.
 
 
 
@@ -44,6 +45,6 @@
 
 
 
-# Reference
+## Reference
 
 - https://zhuanlan.zhihu.com/p/140926754
