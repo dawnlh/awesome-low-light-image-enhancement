@@ -1,7 +1,7 @@
 # Resource for Low Light Imaging & Low Light Image Enhancement
 **This is a list of resouces for low light imaging and low light image enhancement, including datasets, algorithms and so on.**
 
-**Maintained by:** **[Zhihong Zhang](mailto:z_zhi_hong.com) **
+**Maintained by**: [Zhihong Zhang](mailto:z_zhi_hong.com)
 
 ## Introduction
 
