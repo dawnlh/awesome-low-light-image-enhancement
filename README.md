@@ -1,23 +1,28 @@
-# Resources for Low Light Imaging & Low Light Image Enhancement
-**This is a list of resources for low light imaging and low light image enhancement, including datasets, algorithms, blogs and so on.**
+# Resources for Low Light Image Enhancement
+**This is a list of resources for low light image enhancement, including datasets, algorithms/codes/papers, metrics, blogs and so on.**
 
 **Maintained by:** [Zhihong Zhang](mailto:z_zhi_hong.com)
 
-Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-imaging-resource/issues)
+Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues)
 
 ## Introduction
 
-Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources which are related to low light imaging and low light image enhancement, including datasets, algorithms and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light imaging tasks.
+Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources which are related to low light image enhancement, including datasets, algorithms/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
 
 
 
 ## Table of Contents
-
 - [Datasets](#datasets)
 - [Algorithms](#algorithms)
-  * [Non-Learning-based methods](#non-learning-based-methods)
+  * [HE-based methods](#he-based-methods)
+  * [Retinex-based methods](#retinex-based-methods)
+  * [CRM&fusion-based methods (Camera Respond Model)](#crm-fusion-based-methods--camera-respond-model-)
   * [Learning-based methods](#learning-based-methods)
-  * [Related methods](#related-methods)
+  * [Other methods](#other-methods)
+  * [Latest methods](#latest-methods)
+  * [Related works](#related-works)
+- [Metrics](#metrics)
+- [Blogs & Slices](#blogs---slices)
 - [Reference](#reference)
 
 
@@ -45,14 +50,13 @@ Low light imaging and low light image enhancement have wild applications in our 
 ### HE-based methods
 
 - **HE** [[Code]](codes/he.m)
-  - Kim YT. "Contrast enhancement using brightness preserving Bi-histogram equalization," in  *IEEE Trans.  on Consumer Electronics*, 1997, 43(1)
+- **CLAHE** [[Pdf]](https://ieeexplore.ieee.org/document/109340?arnumber=109340)
+  - S.M. Pizer, and R. E. Johnston, “Contrast limited adaptive histogram equalization: speed and effectiveness,”*IEEE Transl. on Consumer Electronics*,1990
 - **BPDHE**  [[Code]](codes/bpdhe.m) [[Pdf]](https://ieeexplore.ieee.org/document/4429280)
   - H. Ibrahim and N. S. Pik Kong, "Brightness Preserving Dynamic Histogram Equalization for Image Contrast Enhancement," in *IEEE Transactions on Consumer Electronics*, vol. 53, no. 4, pp. 1752-1758, Nov. 2007
 - **DHE** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4266947)
   - Abdullah-Al-Wadud M , Kabir M H , Dewan M A A , et al. A Dynamic Histogram Equalization for Image Contrast Enhancement[J]. *IEEE Transactions on Consumer Electronics*, 2007, 53(2):p.593-600.
-- **CLAHE** [[Pdf]](https://ieeexplore.ieee.org/document/4266969?arnumber=4266969)
-  - S.M. Pizer, and R. E. Johnston, “Contrast limited adaptive histogram equalization: speed and effectiveness,”*IEEE Transl. on Consumer Electronics*,1990
-- **WTHE**
+- **WTHE** [[Pdf]](https://ieeexplore.ieee.org/document/4266969?arnumber=4266969)
   - Q. Wang and R. K. Ward, "Fast Image/Video Contrast Enhancement Based on Weighted Thresholded Histogram Equalization," in *IEEE Transactions on Consumer Electronics*, vol. 53, no. 2, pp. 757-764, May 2007
 - **CVC** [[Pdf]](http://ieeexplore.ieee.org/abstract/document/5773086/)
   -  T. Celik and T. Tjahjadi, "Contextual and Variational Contrast Enhancement," in *IEEE Transactions on Image Processing*, vol. 20, no. 12, pp. 3431-3441, Dec. 2011
@@ -67,8 +71,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 :bookmark: retinex
 
-- **MSR**  [[Code]](codes/multiscaleRetinex.m) [[Pdf]](https://www.researchgate.net/profile/Kobus_Barnard/publication/2885010_Investigations_into_Multi-Scale_Retinex/links/00b7d51ed4acdd5206000000/Investigations-into-Multi-Scale-Retinex.pdf?_sg%5B0%5D=6OmKRDiFA5fSLzCGJNec6MoQgsQn5LSNo4JOBJois2Cv1MXZrb8n7hixTUbpDi3KGTfblZwVc17Yx7hErB8WMg.XQwuR6W_oYtiKASrBVCa7onCoWD1lSNYtC7EFuXVuO4j07zTxJW1HgnDJn9vDpQTa_-2kCiQgDD6FBBqIpbnrw&_sg%5B1%5D=5cjYqcmcdQ53Mk3zOgy-fbs27b1rS1isY8VbyvaJscJnrehyKZQJxxrao2jou52ipfXL7so8BiJOKAjWGPGHvQjY3ezf4-Isoob0hMX-6N2O.XQwuR6W_oYtiKASrBVCa7onCoWD1lSNYtC7EFuXVuO4j07zTxJW1HgnDJn9vDpQTa_-2kCiQgDD6FBBqIpbnrw&_iepl=)
-  - K. Barnard and B. Funt, "Investigations into multi-scale retinex, Colour Imaging," in *Vision and Technology*, (1999), pp. 9–17. ISBN: 978-0-471-98531-0.
+- **SSR** [[Pdf]](https://ieeexplore.ieee.org/document/557356)
+  - D. J. Jobson, Z. Rahman and G. A. Woodell, "Properties and performance of a center/surround retinex," in *IEEE Transactions on Image Processing*, vol. 6, no. 3, pp. 451-462, March 1997
+- **MSR**  [[Code]](codes/multiscaleRetinex.m) 
 - **MSRCR** [[Code1]](http://www.ipol.im/pub/art/2014/107/) [[Code2]](https://github.com/upcAutoLang/MSRCR-Restoration) [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=597272)
   - Z. Rahman, D. J. Jobson and G. A. Woodell, "Multi-scale retinex for color image enhancement," *Proceedings of 3rd IEEE International Conference on Image Processing*, Lausanne, Switzerland, 1996
   - D. J. Jobson, Z. Rahman and G. A. Woodell, "A multiscale retinex for bridging the gap between color images and the human observation of scenes," in *IEEE Transactions on Image Processing*, vol. 6, no. 7, pp. 965-976, July 1997
@@ -76,41 +81,41 @@ Low light imaging and low light image enhancement have wild applications in our 
   - C. Lee, J. Shih, C. Lien and C. Han,  "Adaptive Multiscale Retinex for Image Contrast Enhancement," in *2013 International Conference on Signal-Image Technology & Internet-Based Systems (SITIS)*, Kyoto, Japan, 2013
 - **NPE**  [[Web]](https://shuhangwang.wordpress.com/2015/12/14/naturalness-preserved-enhancement-algorithm-for-non-uniform-illumination-images/) [[Code1]](https://www.dropbox.com/s/096l3uy9vowgs4r/Code.rar) [[Code2]](codes/NPE.rar) [[Pdf]](https://ieeexplore.ieee.org/document/6512558)
   - S. Wang, J. Zheng, H. Hu and B. Li, "Naturalness Preserved Enhancement Algorithm for Non-Uniform Illumination Images," in *IEEE Transactions on Image Processing*, vol. 22, no. 9, pp. 3538-3548, Sept. 2013
-- **LIME** [[Web]](https://sites.google.com/view/xjguo/lime) [[Code_official]](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view) [[Code1]](https://github.com/Sy-Zhang/LIME) [[Code2]](https://github.com/estija/LIME) [[Pdf]](http://ieeexplore.ieee.org/document/7782813/) [[Report]](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view)
-  - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), Y. Li, and H. Ling, “LIME: Low-Light Image Enhancement via Illumination Map Estimation,” *IEEE Trans. on Image Process.*, vol. 26, no. 2, pp. 982–993, Feb. 2017
-  - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), “LIME: A Method for Low-light IMage Enhancement,” in *Proceedings of the 2016 ACM on Multimedia Conference - MM ’16*, Amsterdam, The Netherlands, 2016
 - **SRIE** [[Pdf_1]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7229296) [[Pdf_2]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Fu_A_Weighted_Variational_CVPR_2016_paper.pdf) [[Code_1]](codes/PM_SIRE.zip) [[Code_2]](codes/WV_SIRE.zip)
   - X. Fu, Y. Liao, D. Zeng, Y. Huang, X. Zhang and [X. Ding](https://xmu-smartdsp.github.io/teamindex/xhding.html), "A Probabilistic Method for Image Enhancement With Simultaneous Illumination and Reflectance Estimation," in *IEEE Transactions on Image Processing*, vol. 24, no. 12, pp. 4965-4977, Dec. 2015
   - X. Fu, D. Zeng, Y. Huang, X.-P. Zhang, and [X. Ding](https://xmu-smartdsp.github.io/teamindex/xhding.html), “A Weighted Variational Model for Simultaneous Reflectance and Illumination Estimation,” in *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, Las Vegas, NV, USA, Jun. 2016
+- **LIME** [[Web]](https://sites.google.com/view/xjguo/lime) [[Code_official]](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view) [[Code1]](https://github.com/Sy-Zhang/LIME) [[Code2]](https://github.com/estija/LIME) [[Pdf]](http://ieeexplore.ieee.org/document/7782813/) [[Report]](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view)
+  - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), “LIME: A Method for Low-light IMage Enhancement,” in *Proceedings of the 2016 ACM on Multimedia Conference - MM ’16*, Amsterdam, The Netherlands, 2016
+  - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), Y. Li, and H. Ling, “LIME: Low-Light Image Enhancement via Illumination Map Estimation,” *IEEE Trans. on Image Process.*, vol. 26, no. 2, pp. 982–993, Feb. 2017
 - **MF (Multi-deviation Fusion method) ** [[Code]](codes/MF.rar) [[Pdf]](https://doi.org/10.1016/j.sigpro.2016.05.031)
   - X. Fu, D. Zeng, Y. Huang, Y. Liao, X. Ding, and J. Paisley, “A fusion-based enhancing method for weakly illuminated images,” *Signal Processing*, vol. 129, pp. 82–96, Dec. 2016
+- **JieP**  [[Web]](http://caibolun.github.io/JieP/) [[Code]](https://github.com/caibolun/JieP/) [[Pdf]](http://caibolun.github.io/papers/JieP.pdf)
+  - B. Cai, X. Xu, K. Guo, K. Jia, B. Hu, and D. Tao, “A Joint Intrinsic-Extrinsic Prior Model for Retinex,” in *IEEE International Conference on Computer Vision (ICCV)*, 2017.
 - **Robust Retinex Model** [[Code1]](https://github.com/martinli0822/Low-light-image-enhancement)  [[Code2]](codes/robustRetinex.m) [[Pdf]](https://www.microsoft.com/en-us/research/uploads/prod/2018/04/2018-TIP-Structure-Revealing-Low-Light-Image-Enhancement-Via-Robust-Retinex-Model.pdf)
   - M. Li, J. Liu, W. Yang, X. Sun, and Z. Guo, “Structure-Revealing Low-Light Image Enhancement Via Robust Retinex Model,” *IEEE Trans. on Image Process.*, vol. 27, no. 6, pp. 2828–2841, Jun. 2018
 - **A Smart System for Low-Light Image Enhancement with Color Constancy and Detail Manipulation in Complex Light Environments** [[Pdf]](https://www.mdpi.com/2073-8994/10/12/718/pdf)
   - Z. Rahman, M. Aamir, Y.-F. Pu, F. Ullah, and Q. Dai, “A Smart System for Low-Light Image Enhancement with Color Constancy and Detail Manipulation in Complex Light Environments,” *Symmetry*, vol. 10, no. 12, p. 718, Dec. 2018
-  - :bookmark: retinex
 - **Fractional-Order Fusion Model for Low-Light Image Enhancement** [[Pdf]](https://www.mdpi.com/2073-8994/11/4/574/pdf)
   - Q. Dai, Y.-F. Pu, Z. Rahman, and M. Aamir, “Fractional-Order Fusion Model for Low-Light Image Enhancement,” *Symmetry*, vol. 11, no. 4, p. 574, Apr. 2019
-  - :bookmark: retinex
-
-### CRM-based methods (Camera Respond Model)
-
-- **A New Low-Light Image Enhancement Algorithm Using Camera Response Model** [[Code]](https://github.com/baidut/OpenCE) [[Pdf]](http://ieeexplore.ieee.org/document/8265567/) 
-  * Z. Ying, G. Li, Y. Ren, R. Wang and W. Wang, "A New Low-Light Image Enhancement Algorithm Using Camera Response Model," *2017 IEEE International Conference on Computer Vision Workshops (ICCVW)*, Venice, 2017
-- **BIMEF** [[Code]](https://github.com/baidut/BIMEF) [[Pdf]](http://arxiv.org/abs/1711.00591)
-  - Z. Ying, G. Li, and W. Gao, “A Bio-Inspired Multi-Exposure Fusion Framework for Low-light Image Enhancement,” *arXiv:1711.00591 [cs]*, Nov. 2017
-
-### Non-Learning-based methods
-
-- **Fast centre-surround contrast modification** [[Pdf]](https://ieeexplore.ieee.org/document/4455541)
-  - V. Vonikakis, I. Andreadis and A. Gasteratos, "Fast centre-surround contrast modification," in *IET Image Processing*, vol. 2, no. 1, pp. 19-34, Feb. 2008
-- **Improving the robustness in feature detection by local contrast enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/6295482)
-  - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, "Improving the robustness in feature detection by local contrast enhancement," *2012 IEEE International Conference on Imaging Systems and Techniques Proceedings*, Manchester, 2012
-  - [dataset VV](https://sites.google.com/site/vonikakis/datasets)
-- **JieP**  [[Web]](http://caibolun.github.io/JieP/) [[Code]](https://github.com/caibolun/JieP/) [[Pdf]](http://caibolun.github.io/papers/JieP.pdf)
-  - B. Cai, X. Xu, K. Guo, K. Jia, B. Hu, and D. Tao, “A Joint Intrinsic-Extrinsic Prior Model for Retinex,” in *IEEE International Conference on Computer Vision (ICCV)*, 2017.
-- **Low light image enhancement based on non-uniform illumination prior model** [[Pdf]](https://ieeexplore.ieee.org/document/8911585)
+- **Hybrid L2 −LP Variational Model** [[Pdf]](https://ieeexplore.ieee.org/document/8803197)
+  - G. Fu, L. Duan and C. Xiao, "A Hybrid L2 −LP Variational Model For Single Low-Light Image Enhancement With Bright Channel Prior," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+- **NIPM** [[Pdf]](https://ieeexplore.ieee.org/document/8911585)
   - Y. Wu, J. Zheng, W. Song and F. Liu, "Low light image enhancement based on non-uniform illumination prior model," in *IET Image Processing*, vol. 13, no. 13, pp. 2448-2456, 14 11 2019
+- **NPLIE** [[Pdf]](https://doi.org/10.36227/techrxiv.12236780.v1)
+  - D. A. S. Parihar and K. Singh, “Illumination Estimation for Nature Preserving low-light image enhancement,” May 2020
+- **A comparative analysis of illumination estimation based Image Enhancement techniques** [[Pdf]](https://ieeexplore.ieee.org/document/9077919)
+- K. Singh and A. S. Parihar, "A comparative analysis of illumination estimation based Image Enhancement techniques," *2020 International Conference on Emerging Trends in Information Technology and Engineering (ic-ETITE)*, Vellore, India, 2020
+- **LR3M** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9056796)
+  - X. Ren, W. Yang, W. Cheng and J. Liu, "LR3M: Robust Low-Light Enhancement via Low-Rank Regularized Retinex Model," in *IEEE Transactions on Image Processing*, vol. 29, pp. 5862-5876, 2020
+
+### CRM&fusion-based methods (Camera Respond Model)
+
+- **A New Low-Light Image Enhancement Algorithm Using Camera Response Model** [[Code]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_ICCV.m) [[Pdf]](http://ieeexplore.ieee.org/document/8265567/) 
+  * [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang and W. Wang, "A New Low-Light Image Enhancement Algorithm Using Camera Response Model," *2017 IEEE International Conference on Computer Vision Workshops (ICCVW)*, Venice, 2017
+- **BIMEF** [[Code]](https://github.com/baidut/BIMEF) [[Pdf]](http://arxiv.org/abs/1711.00591)
+  - [Z.Ying](https://baidut.github.io/about/), G. Li, and W. Gao, “A Bio-Inspired Multi-Exposure Fusion Framework for Low-light Image Enhancement,” *arXiv:1711.00591 [cs]*, Nov. 2017
+- **Exposure Fusion Framework** [[Web]](https://baidut.github.io/OpenCE/caip2017.html) [[Code_matlab]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_CAIP.m) [[Code_python]](https://github.com/AndyHuang1995/Image-Contrast-Enhancement) [[Pdf]](https://link.springer.com/chapter/10.1007%2F978-3-319-64698-5_4)
+  - [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang, and W. Wang, “A New Image Contrast Enhancement Algorithm Using Exposure Fusion Framework,” in *International Conference on Computer Analysis of Images and Patterns*, 2017, pp. 36–46.
 
 
 
@@ -125,7 +130,7 @@ Low light imaging and low light image enhancement have wild applications in our 
   * [dataset](http://decsai.ugr.es/cvg/dbimagenes/)
 * **LLNet** [[Pdf]](https://doi.org/10.1016/j.patcog.2016.06.008)
   * K. G. Lore, Adedotun Akintayo, and S. Sarkar, “LLNet: A deep autoencoder approach to natural low-light image enhancement,” *Pattern Recognition*, vol. 61, pp. 650–662, Jan. 2017
-* **Deep bilateral learning for real-time image enhancement** [[Web]](https://groups.csail.mit.edu/graphics/hdrnet/) [[Code]](https://github.com/google/hdrnet) [[Pdf]](https://arxiv.org/abs/1707.02880)
+* **HDRNet** [[Web]](https://groups.csail.mit.edu/graphics/hdrnet/) [[Code]](https://github.com/google/hdrnet) [[Pdf]](https://arxiv.org/abs/1707.02880)
   * M. Gharbi, J. Chen, J. T. Barron, S. W. Hasinoff, and F. Durand, “Deep bilateral learning for real-time image enhancement,” *ACM Trans. Graph.*, vol. 36, no. 4, pp. 1–12, Jul. 2017
 * **DSLR Quality Photos on Mobile Devices with Deep Convolutional Networks**  [[Pdf]](https://arxiv.org/abs/1704.02470)
   * A. Ignatov, N. Kobyshev, R. Timofte and K. Vanhoey, "DSLR-Quality Photos on Mobile Devices with Deep Convolutional Networks," *2017 IEEE International Conference on Computer Vision (ICCV)*, Venice, 2017
@@ -142,11 +147,13 @@ Low light imaging and low light image enhancement have wild applications in our 
   * real  [dataset](https://github.com/cchen156/Learning-to-See-in-the-Dark)
 * **SICE** [[Code]](https://github.com/csjcai/SICE) [[Pdf]](https://doi.org/10.1109/TIP.2018.2794218)
   * J. Cai, S. Gu, and Z. Lei, “Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images,” *IEEE Transactions on Image Processing*, vol. 27, no. 4, pp. 2049–2062, 2018
+* **White-Box** [[Code]](https://github.com/yuanming-hu/exposure) [[Pdf]](https://doi.org/10.1145/3181974)
+  * [Y. Hu](http://taichi.graphics/me/), H. He, C. Xu, B. Wang, and S. Lin, “Exposure: A White-Box Photo Post-Processing Framework,” *ACM Trans. Graph.*, vol. 37, no. 2, pp. 1–17, Jul. 2018, doi: [10.1145/3181974](https://doi.org/10.1145/3181974).
 * **GLADNet** [[Web]](https://daooshee.github.io/fgworkshop18Gladnet/) [[Code]](https://github.com/weichen582/GLADNet) [[Pdf]](https://github.com/daooshee/fgworkshop18Gladnet/blob/master/wwj_fg2018.pdf)
   * W. Wang, C. Wei, W. Yang and J. Liu, "GLADNet: Low-Light Enhancement Network with Global Awareness," *2018 13th IEEE International Conference on Automatic Face & Gesture Recognition*
   * synthetic [dataset](https://daooshee.github.io/fgworkshop18Gladnet/) generated from RAW images
 * **A Pipeline Neural Network for Low-Light Image Enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/8607964/)
-  * Y. Guo, X. Ke, J. Ma, and J. Zhang, “A Pipeline Neural Network for Low-Light Image Enhancement,” *IEEE Access*, vol. 7
+  * Y. Guo, X. Ke, J. Ma, and J. Zhang, “A Pipeline Neural Network for Low-Light Image Enhancement,” *IEEE Access*, vol. 7, pp. 13737–13744, 2019
 * **KinD** [[Code]](https://github.com/zhangyhuaee/KinD) [[Code+]](https://github.com/zhangyhuaee/KinD_plus) [[Pdf]](http://arxiv.org/abs/1905.04161)
   * Y. Zhang, J. Zhang, and [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0),, “Kindling the Darkness: A Practical Low-light Image Enhancer,” *arXiv:1905.04161 [cs]*, May 2019
 * **Learning Digital Camera Pipeline for Extreme Low-Light Imaging** [[Pdf]](https://arxiv.org/abs/1904.05939)
@@ -165,14 +172,62 @@ Low light imaging and low light image enhancement have wild applications in our 
 * **RDGAN** [[Code]](https://github.com/WangJY06/RDGAN/) [[Pdf]](https://ieeexplore.ieee.org/document/8785047)
   * J. Wang, W. Tan, X. Niu and B. Yan, "RDGAN: Retinex Decomposition Based Adversarial Learning for Low-Light Enhancement," *2019 IEEE International Conference on Multimedia and Expo (ICME)*, Shanghai, China, 2019
   * :bookmark: retinex
+* **Deep Fusion Networks** [[Pdf]](https://ieeexplore.ieee.org/document/8803041)
+  * Y. Cheng, J. Yan and Z. Wang, "Enhancement of Weakly Illuminated Images by Deep Fusion Networks," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+* **Llrnet** [[Pdf]](https://ieeexplore.ieee.org/document/8803765)
+  * S. Malik and R. Soundararajan, "Llrnet: A Multiscale Subband Learning Approach for Low Light Image Restoration," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+* **Low-Lightgan** [[Pdf]](https://ieeexplore.ieee.org/document/8803328)
+  * G. Kim, D. Kwon and J. Kwon, "Low-Lightgan: Low-Light Enhancement Via Advanced Generative Adversarial Network With Task-Driven Training," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+* **EnlightenGAN** [[Code]](https://github.com/TAMU-VITA/EnlightenGAN) [[Pdf]](https://arxiv.org/abs/1906.06972)
+  * Y. Jiang *et al.*, “EnlightenGAN: Deep Light Enhancement without Paired Supervision,” *arXiv:1906.06972 [cs, eess]*, Jun. 2019
+* **An Effective Network with ConvLSTM for Low-Light Image Enhancement** [[Pdf]](https://doi.org/10.1007/978-3-030-31723-2_19)
+  * Y. Xiang, Y. Fu, L. Zhang, and H. Huang, “An Effective Network with ConvLSTM for Low-Light Image Enhancement,” in *Pattern Recognition and Computer Vision*, Cham, 2019.
+* **Low-Light Image Enhancement with Attention and Multi-level Feature Fusion** [[Pdf]](https://ieeexplore.ieee.org/document/8794872)
+  * L. Wang, G. Fu, Z. Jiang, G. Ju and A. Men, "Low-Light Image Enhancement with Attention and Multi-level Feature Fusion," *2019 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)*, Shanghai, China, 2019
 * **Zero-DCE** [[Web]](https://li-chongyi.github.io/Proj_Zero-DCE.html) [[Code]](https://github.com/Li-Chongyi/Zero-DCE) [[Pdf]](https://arxiv.org/pdf/2001.06826.pdf)
   * C. Guo *et al.*, “Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,” *arXiv:2001.06826 [cs]*, Mar. 2020
 
+### Other methods
+
+- **Fast centre-surround contrast modification** [[Pdf]](https://ieeexplore.ieee.org/document/4455541)
+  - V. Vonikakis, I. Andreadis and A. Gasteratos, "Fast centre-surround contrast modification," in *IET Image Processing*, vol. 2, no. 1, pp. 19-34, Feb. 2008
+- **Fast efficient algorithm for enhancement of low lighting video** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6012107) [[Code]](codes/XuanDong-Method.m)
+  - Xuan Dong *et al*., "Fast efficient algorithm for enhancement of low lighting video," *2011 IEEE International Conference on Multimedia and Expo*, Barcelona, 2011
+- **ALSM** [[Pdf]](https://doi.org/10.1109/TIP.2019.2922106)
+  - Y.-F. Wang, H.-M. Liu, and Z.-W. Fu, “Low-Light Image Enhancement via the Absorption Light Scattering Model,” *IEEE Transactions on Image Processing*, vol. 28, no. 11, pp. 5679–5690, Nov. 2019
+- **Maximum and Guided Filters** [[Pdf]](file:///D:/ZoteroData/storage/JBKLL8T5/8803591.html)
+  - D. Zhu, G. Chen, P. N. Michelini and H. Liu, "Fast Image Enhancement Based on Maximum and Guided Filters," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+
+### Latest methods
+
+* Y. Zhang, X. Di, B. Zhang, and C. Wang, “Self-supervised Image Enhancement Network: Training with Low Light Images Only,” *arXiv:2002.11300 [cs, eess]*, Feb. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2002.11300.
+* F. Lv, Y. Li, and F. Lu, “Attention Guided Low-light Image Enhancement with a Large Scale Low-light Simulation Dataset,” *arXiv:1908.00682 [cs, eess]*, Mar. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1908.00682.
+* X. Li *et al.*, “Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement,” *arXiv:2005.07343 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.07343.
+* W. Xiong, D. Liu, X. Shen, C. Fang, and J. Luo, “Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks,” *arXiv:2005.02818 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.02818.
+* S. Moran, P. Marza, S. McDonagh, S. Parisot, and G. Slabaugh, “DeepLPF: Deep Local Parametric Filters for Image Enhancement,” *arXiv:2003.13985 [cs]*, Mar. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2003.13985.
+* Q. Fu, X. Di, and Y. Zhang, “Learning an Adaptive Model for Extreme Low-light Raw Image Processing,” *arXiv:2004.10447 [cs, eess]*, Apr. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2004.10447.
+
 ### Related works
 
+-  **Improving the robustness in feature detection by local contrast enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/6295482)
+  - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, "Improving the robustness in feature detection by local contrast enhancement," *2012 IEEE International Conference on Imaging Systems and Techniques Proceedings*, Manchester, 2012
+  - [dataset VV](https://sites.google.com/site/vonikakis/datasets)
 -  **Automatic Photo Adjustment Using Deep Neural Networks** [[Web]](https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust) [[Code]](https://github.com/stephenyan1984/dl-image-enhance/wiki) [[Pdf]](https://arxiv.org/abs/1412.7725v2)
   - Z. Yan, H. Zhang, B. Wang, S. Paris, and Y. Yu, “Automatic Photo Adjustment Using Deep Neural Networks,” *ACM Transactions on Graphics*, 2015.
--  
+-  **Distort-and-Recover** [[Code]](https://sites.google.com/view/distort-and-recover/) [[Pdf]](https://doi.org/10.1109/CVPR.2018.00621)
+   -  J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
+
+
+
+## Metrics
+
+- MSE
+- SSIM
+- entropy (DE)
+- EME
+- AB
+- PixDist
+- LOE
 
 ## Blogs & Slices
 
