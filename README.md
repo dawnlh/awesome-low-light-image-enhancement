@@ -1,5 +1,5 @@
 # Resources for Low Light Image Enhancement
-**This is a resource list for low light image enhancement, including datasets, algorithms/codes/papers, metrics, blogs and so on.**
+**This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics, blogs and so on.**
 
 **Maintained by:** [Zhihong Zhang](mailto:z_zhi_hong.com)
 
@@ -7,13 +7,13 @@ Looking forward to your sharing! You can come up with your ideas and suggestions
 
 ## Introduction
 
-Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources related to low light image enhancement, including datasets, algorithms/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
+Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources related to low light image enhancement, including datasets, methods/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
 
 
 
 ## Table of Contents
 - [Datasets](#datasets)
-- [Algorithms](#algorithms)
+- [Methods](#methods)
   * [HE-based methods](#he-based-methods)
   * [Retinex-based methods](#retinex-based-methods)
   * [CRM&fusion-based methods (Camera Respond Model)](#crm-fusion-based-methods--camera-respond-model-)
@@ -46,7 +46,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 |    the nighttime image dataset    | A dataset which contains source images in bad visibility and their enhanced images processed by different enhancement algorithms |                  http://mlg.idm.pku.edu.cn/                  |
 
 
-## Algorithms
+## Methods
 ### HE-based methods
 
 - **HE** [[Code]](codes/he.m)
