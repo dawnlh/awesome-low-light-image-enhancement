@@ -1,5 +1,5 @@
 # Resources for Low Light Image Enhancement
-**This is a list of resources for low light image enhancement, including datasets, algorithms/codes/papers, metrics, blogs and so on.**
+**This is a resource list for low light image enhancement, including datasets, algorithms/codes/papers, metrics, blogs and so on.**
 
 **Maintained by:** [Zhihong Zhang](mailto:z_zhi_hong.com)
 
@@ -7,7 +7,7 @@ Looking forward to your sharing! You can come up with your ideas and suggestions
 
 ## Introduction
 
-Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources which are related to low light image enhancement, including datasets, algorithms/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
+Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources related to low light image enhancement, including datasets, algorithms/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
 
 
 
@@ -236,7 +236,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 - [基于深度学习的低光照图像增强方法总结 (2017-2019)](https://blog.csdn.net/hyk_1996/article/details/99641652), by [hyk_1996](https://blog.csdn.net/hyk_1996)
 - [图像暗光增强-直方图增强](https://blog.csdn.net/Cody_/article/details/102517445)， by [若，只如初见](https://blog.csdn.net/Cody_)
 - [Retinex算法在暗光增强应用以及Python实现](https://blog.csdn.net/Cody_/article/details/104793796)， by [若，只如初见](https://blog.csdn.net/Cody_)
-- [Learning based methods in low light image enhancement](slide/dl-low-light-imaging-enhancement-review.pdf), by [Zhihong Zhang](https://github.com/dawnlh)
+- [Learning based methods in low light image enhancement](slides/dl-low-light-imaging-enhancement-review.pdf), by [Zhihong Zhang](https://github.com/dawnlh)
 
 
 
