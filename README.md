@@ -186,12 +186,16 @@ Low light imaging and low light image enhancement have wild applications in our 
   * W. Wang, X. Chen, C. Yang, X. Li, X. Hu and T. Yue, "Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 4110-4118, doi: 10.1109/ICCV.2019.00421.
 * **Low-Light Image Enhancement with Attention and Multi-level Feature Fusion** [[Pdf]](https://ieeexplore.ieee.org/document/8794872)
   * L. Wang, G. Fu, Z. Jiang, G. Ju and A. Men, "Low-Light Image Enhancement with Attention and Multi-level Feature Fusion," *2019 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)*, Shanghai, China, 2019
-* **Zero-DCE** [[Web]](https://li-chongyi.github.io/Proj_Zero-DCE.html) [[Code]](https://github.com/Li-Chongyi/Zero-DCE) [[Pdf]](https://arxiv.org/pdf/2001.06826.pdf)
-  * C. Guo *et al.*, “Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,” *arXiv:2001.06826 [cs]*, Mar. 2020
+* **Zero-DCE** [[Web]](https://li-chongyi.github.io/Proj_Zero-DCE.html) [[Code]](https://github.com/Li-Chongyi/Zero-DCE) [[Pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf)
+  * C. Guo *et al.*, “Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,” in *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Seattle, WA, USA, Jun. 2020, pp. 1777–1786, doi: [10.1109/CVPR42600.2020.00185](https://doi.org/10.1109/CVPR42600.2020.00185).
 * **Learning to Restore Low-Light Images via Decomposition-and-Enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/9156446)
   * K. Xu, X. Yang, B. Yin and R. W. H. Lau, "Learning to Restore Low-Light Images via Decomposition-and-Enhancement," *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Seattle, WA, USA, 2020, pp. 2278-2287, doi: 10.1109/CVPR42600.2020.00235.
 * **DRBN** [[Pdf]](https://ieeexplore.ieee.org/document/9156559)
   * W. Yang, S. Wang, Y. Fang, Y. Wang and J. Liu, "From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement," 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 2020, pp. 3060-3069, doi: 10.1109/CVPR42600.2020.00313.
+*  **STARnet**[[Web]](https://alterzero.github.io/projects/STAR.html) [[Code]](https://github.com/alterzero/STARnet) [[Pdf]](https://alterzero.github.io/projects/star_cvpr2020.pdf)
+  * Muhammad Haris, Greg Shakhnarovich, and Norimichi Ukita, "Space-Time-Aware Multi-Resolution Video Enhancement", Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+*  **DeepLPF** [[Code]](https://github.com/sjmoran/DeepLPF)[[Pdf]](https://arxiv.org/abs/2003.13985)
+  * Moran, S., Marza, P., McDonagh, S., Parisot, S., Slabaugh, G. DeepLPF: Deep Local Parametric Filters for Image Enhancement, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
 * **Image-Adaptive-3DLUT** [[Code]](https://github.com/HuiZeng/Image-Adaptive-3DLUT) [[Pdf]](https://ieeexplore.ieee.org/document/9206076)
   * H. Zeng, J. Cai, L. Li, Z. Cao and L. Zhang, "Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time," in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
 
@@ -212,7 +216,6 @@ Low light imaging and low light image enhancement have wild applications in our 
 * F. Lv, Y. Li, and F. Lu, “Attention Guided Low-light Image Enhancement with a Large Scale Low-light Simulation Dataset,” *arXiv:1908.00682 [cs, eess]*, Mar. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1908.00682.
 * X. Li *et al.*, “Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement,” *arXiv:2005.07343 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.07343.
 * W. Xiong, D. Liu, X. Shen, C. Fang, and J. Luo, “Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks,” *arXiv:2005.02818 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.02818.
-* S. Moran, P. Marza, S. McDonagh, S. Parisot, and G. Slabaugh, “DeepLPF: Deep Local Parametric Filters for Image Enhancement,” *arXiv:2003.13985 [cs]*, Mar. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2003.13985.
 * Q. Fu, X. Di, and Y. Zhang, “Learning an Adaptive Model for Extreme Low-light Raw Image Processing,” *arXiv:2004.10447 [cs, eess]*, Apr. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2004.10447.
 
 ### Related works
