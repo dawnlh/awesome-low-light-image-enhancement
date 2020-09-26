@@ -87,7 +87,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 - **LIME** [[Web]](https://sites.google.com/view/xjguo/lime) [[Code_official]](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view) [[Code1]](https://github.com/Sy-Zhang/LIME) [[Code2]](https://github.com/estija/LIME) [[Pdf]](http://ieeexplore.ieee.org/document/7782813/) [[Report]](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view)
   - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), “LIME: A Method for Low-light IMage Enhancement,” in *Proceedings of the 2016 ACM on Multimedia Conference - MM ’16*, Amsterdam, The Netherlands, 2016
   - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), Y. Li, and H. Ling, “LIME: Low-Light Image Enhancement via Illumination Map Estimation,” *IEEE Trans. on Image Process.*, vol. 26, no. 2, pp. 982–993, Feb. 2017
-- **MF (Multi-deviation Fusion method) ** [[Code]](codes/MF.rar) [[Pdf]](https://doi.org/10.1016/j.sigpro.2016.05.031)
+- **MF (Multi-deviation Fusion method)** [[Code]](codes/MF.rar) [[Pdf]](https://doi.org/10.1016/j.sigpro.2016.05.031)
   - X. Fu, D. Zeng, Y. Huang, Y. Liao, X. Ding, and J. Paisley, “A fusion-based enhancing method for weakly illuminated images,” *Signal Processing*, vol. 129, pp. 82–96, Dec. 2016
 - **JieP**  [[Web]](http://caibolun.github.io/JieP/) [[Code]](https://github.com/caibolun/JieP/) [[Pdf]](http://caibolun.github.io/papers/JieP.pdf)
   - B. Cai, X. Xu, K. Guo, K. Jia, B. Hu, and D. Tao, “A Joint Intrinsic-Extrinsic Prior Model for Retinex,” in *IEEE International Conference on Computer Vision (ICCV)*, 2017.
@@ -182,10 +182,18 @@ Low light imaging and low light image enhancement have wild applications in our 
   * Y. Jiang *et al.*, “EnlightenGAN: Deep Light Enhancement without Paired Supervision,” *arXiv:1906.06972 [cs, eess]*, Jun. 2019
 * **An Effective Network with ConvLSTM for Low-Light Image Enhancement** [[Pdf]](https://doi.org/10.1007/978-3-030-31723-2_19)
   * Y. Xiang, Y. Fu, L. Zhang, and H. Huang, “An Effective Network with ConvLSTM for Low-Light Image Enhancement,” in *Pattern Recognition and Computer Vision*, Cham, 2019.
+* **Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise** [[Pdf]](https://ieeexplore.ieee.org/document/9011000)
+  * W. Wang, X. Chen, C. Yang, X. Li, X. Hu and T. Yue, "Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 4110-4118, doi: 10.1109/ICCV.2019.00421.
 * **Low-Light Image Enhancement with Attention and Multi-level Feature Fusion** [[Pdf]](https://ieeexplore.ieee.org/document/8794872)
   * L. Wang, G. Fu, Z. Jiang, G. Ju and A. Men, "Low-Light Image Enhancement with Attention and Multi-level Feature Fusion," *2019 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)*, Shanghai, China, 2019
 * **Zero-DCE** [[Web]](https://li-chongyi.github.io/Proj_Zero-DCE.html) [[Code]](https://github.com/Li-Chongyi/Zero-DCE) [[Pdf]](https://arxiv.org/pdf/2001.06826.pdf)
   * C. Guo *et al.*, “Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,” *arXiv:2001.06826 [cs]*, Mar. 2020
+* **Learning to Restore Low-Light Images via Decomposition-and-Enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/9156446)
+  * K. Xu, X. Yang, B. Yin and R. W. H. Lau, "Learning to Restore Low-Light Images via Decomposition-and-Enhancement," *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Seattle, WA, USA, 2020, pp. 2278-2287, doi: 10.1109/CVPR42600.2020.00235.
+* **DRBN** [[Pdf]](https://ieeexplore.ieee.org/document/9156559)
+  * W. Yang, S. Wang, Y. Fang, Y. Wang and J. Liu, "From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement," 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 2020, pp. 3060-3069, doi: 10.1109/CVPR42600.2020.00313.
+* **Image-Adaptive-3DLUT** [[Code]](https://github.com/HuiZeng/Image-Adaptive-3DLUT) [[Pdf]](https://ieeexplore.ieee.org/document/9206076)
+  * H. Zeng, J. Cai, L. Li, Z. Cao and L. Zhang, "Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time," in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
 
 ### Other methods
 
