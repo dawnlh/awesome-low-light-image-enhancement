@@ -101,14 +101,14 @@ Low light imaging and low light image enhancement have wild applications in our 
   - G. Fu, L. Duan and C. Xiao, "A Hybrid L2 −LP Variational Model For Single Low-Light Image Enhancement With Bright Channel Prior," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
 - **NIPM** [[Pdf]](https://ieeexplore.ieee.org/document/8911585)
   - Y. Wu, J. Zheng, W. Song and F. Liu, "Low light image enhancement based on non-uniform illumination prior model," in *IET Image Processing*, vol. 13, no. 13, pp. 2448-2456, 14 11 2019
+- **Dual Illumination Estimation for Robust Exposure Correction** [[Pdf]](https://arxiv.org/pdf/1910.13688.pdf) [[Code1]](https://github.com/pvnieo/Low-light-Image-Enhancement)
+  - Qing Zhang, Yongwei Nie, and Wei-Shi Zheng. Dual illumination estimation for robust exposure correction. In Computer Graphics Forum, 2019
 - **NPLIE** [[Pdf]](https://doi.org/10.36227/techrxiv.12236780.v1)
   - D. A. S. Parihar and K. Singh, “Illumination Estimation for Nature Preserving low-light image enhancement,” May 2020
 - **A comparative analysis of illumination estimation based Image Enhancement techniques** [[Pdf]](https://ieeexplore.ieee.org/document/9077919)
 - K. Singh and A. S. Parihar, "A comparative analysis of illumination estimation based Image Enhancement techniques," *2020 International Conference on Emerging Trends in Information Technology and Engineering (ic-ETITE)*, Vellore, India, 2020
 - **LR3M** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9056796)
   - X. Ren, W. Yang, W. Cheng and J. Liu, "LR3M: Robust Low-Light Enhancement via Low-Rank Regularized Retinex Model," in *IEEE Transactions on Image Processing*, vol. 29, pp. 5862-5876, 2020
-- **Dual Illumination Estimation for Robust Exposure Correction** [[Pdf]](https://arxiv.org/pdf/1910.13688.pdf) [[Code1]](https://github.com/pvnieo/Low-light-Image-Enhancement)
-  - Qing Zhang, Yongwei Nie, and Wei-Shi Zheng. Dual illumination estimation for robust exposure correction. In Computer Graphics Forum, 2019
 
 ### CRM&fusion-based methods (Camera Respond Model)
 
