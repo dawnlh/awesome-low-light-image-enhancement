@@ -84,7 +84,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 - **SRIE** [[Pdf_1]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7229296) [[Pdf_2]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Fu_A_Weighted_Variational_CVPR_2016_paper.pdf) [[Code_1]](codes/PM_SIRE.zip) [[Code_2]](codes/WV_SIRE.zip)
   - X. Fu, Y. Liao, D. Zeng, Y. Huang, X. Zhang and [X. Ding](https://xmu-smartdsp.github.io/teamindex/xhding.html), "A Probabilistic Method for Image Enhancement With Simultaneous Illumination and Reflectance Estimation," in *IEEE Transactions on Image Processing*, vol. 24, no. 12, pp. 4965-4977, Dec. 2015
   - X. Fu, D. Zeng, Y. Huang, X.-P. Zhang, and [X. Ding](https://xmu-smartdsp.github.io/teamindex/xhding.html), “A Weighted Variational Model for Simultaneous Reflectance and Illumination Estimation,” in *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, Las Vegas, NV, USA, Jun. 2016
-- **LIME** [[Web]](https://sites.google.com/view/xjguo/lime) [[Code_official]](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view) [[Code1]](https://github.com/Sy-Zhang/LIME) [[Code2]](https://github.com/estija/LIME) [[Pdf]](http://ieeexplore.ieee.org/document/7782813/) [[Report]](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view)
+- **LIME** [[Web]](https://sites.google.com/view/xjguo/lime) [[Code_official]](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view) [[Code1]](https://github.com/Sy-Zhang/LIME) [[Code2]](https://github.com/estija/LIME) [[Code3]](https://github.com/pvnieo/Low-light-Image-Enhancement) [[Pdf]](http://ieeexplore.ieee.org/document/7782813/) [[Report]](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view)
   - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), “LIME: A Method for Low-light IMage Enhancement,” in *Proceedings of the 2016 ACM on Multimedia Conference - MM ’16*, Amsterdam, The Netherlands, 2016
   - [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0), Y. Li, and H. Ling, “LIME: Low-Light Image Enhancement via Illumination Map Estimation,” *IEEE Trans. on Image Process.*, vol. 26, no. 2, pp. 982–993, Feb. 2017
 - **MF (Multi-deviation Fusion method)** [[Code]](codes/MF.rar) [[Pdf]](https://doi.org/10.1016/j.sigpro.2016.05.031)
@@ -107,6 +107,8 @@ Low light imaging and low light image enhancement have wild applications in our 
 - K. Singh and A. S. Parihar, "A comparative analysis of illumination estimation based Image Enhancement techniques," *2020 International Conference on Emerging Trends in Information Technology and Engineering (ic-ETITE)*, Vellore, India, 2020
 - **LR3M** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9056796)
   - X. Ren, W. Yang, W. Cheng and J. Liu, "LR3M: Robust Low-Light Enhancement via Low-Rank Regularized Retinex Model," in *IEEE Transactions on Image Processing*, vol. 29, pp. 5862-5876, 2020
+- **Dual Illumination Estimation for Robust Exposure Correction** [[Pdf]](https://arxiv.org/pdf/1910.13688.pdf) [[Code1]](https://github.com/pvnieo/Low-light-Image-Enhancement)
+  - Qing Zhang, Yongwei Nie, and Wei-Shi Zheng. Dual illumination estimation for robust exposure correction. In Computer Graphics Forum, 2019
 
 ### CRM&fusion-based methods (Camera Respond Model)
 
