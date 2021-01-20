@@ -12,7 +12,7 @@
 
 
 
-#### **Summary of previous evaluation metrics for low-light enhancement**
+### **Summary of previous evaluation metrics for low-light enhancement**
 
 ![VE-LOL_metrics](recommended.assets/VE-LOL_metrics.png)
 
@@ -20,7 +20,7 @@
 
 
 
-#### **An overview of low-light enhancement methods**
+### **An overview of low-light enhancement methods**
 
 ![VE-LOL_method1](recommended.assets/VE-LOL_method1.png)
 
