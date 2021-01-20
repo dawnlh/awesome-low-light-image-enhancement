@@ -6,7 +6,7 @@
 
 ### **Comparison between existing low-light enhancement datasets and VE-LOL**  
 
-![VE-LOL_comparison](recommended.assets/VE-LOL_comparison-1611116570436.png)
+![VE-LOL_comparison](recommended.assets/VE-LOL_comparison.png)
 
 ---
 
