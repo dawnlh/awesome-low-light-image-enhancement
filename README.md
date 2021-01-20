@@ -5,13 +5,18 @@
 
 Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues)
 
+
+
 ## Introduction
 
 Low light imaging and low light image enhancement have wild applications in our daily life and different scientific research fields, like night surveillance, automated driving, fluorescence microscopy, high speed imaging and so on. However, there is still a long way to go in dealing with these tasks, considering the great challenges in low photon counts, low SNR, complicated noise models, etc. Here, we collect a list of resources related to low light image enhancement, including datasets, methods/codes/papers, metrics, and so on. We hope this can help to provide some help to the development of new methods and solutions to the low light tasks.
 
+---
+
 
 
 ## Table of Contents
+- [Highlights](#highlights)
 - [Datasets](#datasets)
 - [Methods](#methods)
   * [HE-based methods](#he-based-methods)
@@ -21,12 +26,29 @@ Low light imaging and low light image enhancement have wild applications in our 
   * [Other methods](#other-methods)
   * [Latest methods](#latest-methods)
   * [Related works](#related-works)
+- [Reviews](#reviews)
 - [Metrics](#metrics)
 - [Blogs & Slices](#blogs---slices)
 - [Reference](#reference)
+- [Supplementary](#supplementary)
+
+---
+
+
+
+## Highlights
+
+:high_brightness: <font color='red'> **highlight!** </font>
+
+- [**Benchmarking Low-Light Image Enhancement and Beyond**](recommended/recommended.md) [[Pdf]](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8) [[Summary]](recommended/recommended.md)
+  -  J. Liu, D. Xu, W. Yang, M. Fan, and H. Huang, “Benchmarking Low-Light Image Enhancement and Beyond,” *Int J Comput Vis*, Jan. 2021, doi: [10.1007/s11263-020-01418-8](https://doi.org/10.1007/s11263-020-01418-8).
+
+------
+
 
 
 ## Datasets
+
 |              dataset              |                      brief introduction                      |                             link                             |
 | :-------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |           VIP-LowLight            |  Eight Natural Images Captured in Very Low-Light Conditions  | https://uwaterloo.ca/vision-image-processing-lab/research-demos/vip-lowlight-dataset |
@@ -44,9 +66,14 @@ Low light imaging and low light image enhancement have wild applications in our 
 |               SICE                | A large-scale multi-exposure image dataset, which contains 589 elaborately selected high-resolution multi-exposure sequences with 4,413 images |                https://github.com/csjcai/SICE                |
 | The Extended Yale Face Database B | The extended Yale Face Database B contains 16128 images of 28 human subjects under 9 poses and 64 illumination conditions. | http://vision.ucsd.edu/~iskwak/ExtYaleDatabase/ExtYaleB.html |
 |    the nighttime image dataset    | A dataset which contains source images in bad visibility and their enhanced images processed by different enhancement algorithms |                  http://mlg.idm.pku.edu.cn/                  |
+|              VE-LOL               | A large-scale low-light image dataset serving both low/high-level vision with diversified scenes and contents as well as complex degradation in real scenarios, called Vision Enhancement in the LOw-Light condition (VE-LOL). |                                                              |
+
+---
+
 
 
 ## Methods
+
 ### HE-based methods
 
 - **HE** [[Code]](codes/he.m)
@@ -230,6 +257,18 @@ Low light imaging and low light image enhancement have wild applications in our 
 -  **Distort-and-Recover** [[Code]](https://sites.google.com/view/distort-and-recover/) [[Pdf]](https://doi.org/10.1109/CVPR.2018.00621)
    -  J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
 
+---
+
+
+
+## Reviews
+
+-  **Benchmarking Low-Light Image Enhancement and Beyond** [[Pdf]](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8)
+   -  J. Liu, D. Xu, W. Yang, M. Fan, and H. Huang, “Benchmarking Low-Light Image Enhancement and Beyond,” *Int J Comput Vis*, Jan. 2021, doi: [10.1007/s11263-020-01418-8](https://doi.org/10.1007/s11263-020-01418-8).
+   -  :high_brightness: <font color='red'> **highlight!** </font>
+
+---
+
 
 
 ## Metrics
@@ -242,6 +281,10 @@ Low light imaging and low light image enhancement have wild applications in our 
 - PixDist
 - LOE
 
+---
+
+
+
 ## Blogs & Slices
 
 - [重磅干货｜低光图像处理方案](https://zhuanlan.zhihu.com/p/140926754), by [Happy](https://www.zhihu.com/people/wsp_tcl)
@@ -253,8 +296,21 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 
 
+---
+
+
+
 ## Reference
 
 - https://zhuanlan.zhihu.com/p/140926754
 - https://github.com/baidut/OpenCE
 - https://github.com/tiandaoxiaowu/image-enhancement-about-Retinex
+
+
+
+## Supplementary
+
+### Tags
+
+- :high_brightness: <font color='red'> **highlight!** </font>
+- :bookmark: retinex
