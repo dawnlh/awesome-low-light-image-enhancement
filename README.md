@@ -256,6 +256,9 @@ Low light imaging and low light image enhancement have wild applications in our 
   - Z. Yan, H. Zhang, B. Wang, S. Paris, and Y. Yu, “Automatic Photo Adjustment Using Deep Neural Networks,” *ACM Transactions on Graphics*, 2015.
 -  **Distort-and-Recover** [[Code]](https://sites.google.com/view/distort-and-recover/) [[Pdf]](https://doi.org/10.1109/CVPR.2018.00621)
    -  J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
+-  **REGDet**[[Pdf]](https://arxiv.org/abs/2007.10963)
+   -  J. Liang *et al.*, “Recurrent exposure generation for low-light face detection,” 2020.
+   -  :bookmark: application
 
 ---
 
