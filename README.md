@@ -227,6 +227,17 @@ Low light imaging and low light image enhancement have wild applications in our 
   * Moran, S., Marza, P., McDonagh, S., Parisot, S., Slabaugh, G. DeepLPF: Deep Local Parametric Filters for Image Enhancement, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
 * **Image-Adaptive-3DLUT** [[Code]](https://github.com/HuiZeng/Image-Adaptive-3DLUT) [[Pdf]](https://ieeexplore.ieee.org/document/9206076)
   * H. Zeng, J. Cai, L. Li, Z. Cao and L. Zhang, "Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time," in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
+* **RUAS** [[Web]](http://dutmedia.org/RUAS/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Retinex-Inspired_Unrolling_With_Cooperative_Prior_Architecture_Search_for_Low-Light_Image_CVPR_2021_paper.pdf) [[Code]](https://github.com/dut-media-lab/RUAS)
+  *  Liu, Risheng, Long Ma, Jiaao Zhang, Xin Fan, and Zhongxuan Luo. “Retinex-Inspired Unrolling with Cooperative Prior Architecture Search for Low-Light Image Enhancement.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 10561–70, 2021.
+  * :bookmark: retinex
+* **Deep denoising of flash and no-flash pairs for photography in low-light environments** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_Deep_Denoising_of_Flash_and_No-Flash_Pairs_for_Photography_in_CVPR_2021_paper.pdf)
+  * Xia, Zhihao, Michael Gharbi, Federico Perazzi, Kalyan Sunkavalli, and Ayan Chakrabarti. “Deep Denoising of Flash and No-Flash Pairs for Photography in Low-Light Environments.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2063–72, 2021.
+* **HORUS** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Moseley_Extreme_Low-Light_Environment-Driven_Image_Denoising_Over_Permanently_Shadowed_Lunar_Regions_CVPR_2021_paper.pdf)
+  * Moseley, Ben, Valentin Bickel, Ignacio G. Lopez-Francos, and Loveneesh Rana. “Extreme Low-Light Environment-Driven Image Denoising over Permanently Shadowed Lunar Regions with a Physical Noise Model.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 6317–27, 2021.
+* **Learning temporal consistency for low light video enhancement from single images** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Learning_Temporal_Consistency_for_Low_Light_Video_Enhancement_From_Single_CVPR_2021_paper.pdf) [[Code]](https://github.com/zkawfanx/StableLLVE)
+  * Zhang, Fan, Yu Li, Shaodi You, and Ying Fu. “Learning Temporal Consistency for Low Light Video Enhancement from Single Images.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 4967–76, 2021.
+* **Nighttime visibility enhancement by increasing the dynamic range and suppression of light effects** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sharma_Nighttime_Visibility_Enhancement_by_Increasing_the_Dynamic_Range_and_Suppression_CVPR_2021_paper.pdf)
+  * Sharma, Aashish, and Robby T. Tan. “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 11977–86, 2021.
 
 ### Other methods
 
@@ -258,7 +269,10 @@ Low light imaging and low light image enhancement have wild applications in our 
    -  J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
 -  **REGDet**[[Pdf]](https://arxiv.org/abs/2007.10963)
    -  J. Liang *et al.*, “Recurrent exposure generation for low-light face detection,” 2020.
-   -  :bookmark: application
+   -  :bookmark: application - face detection
+-  **HLA-Face**  [[Web]](https://daooshee.github.io/HLA-Face-Website/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_HLA-Face_Joint_High-Low_Adaptation_for_Low_Light_Face_Detection_CVPR_2021_paper.pdf) [[Code]](https://github.com/daooshee/HLA-Face-Code) 
+   -  Wang, Wenjing, Wenhan Yang, and Jiaying Liu. “HLA-Face: Joint High-Low Adaptation for Low Light Face Detection.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 16195–204, 2021.
+   -  :bookmark: application - face detection
 
 ---
 
