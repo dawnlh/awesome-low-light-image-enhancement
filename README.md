@@ -38,10 +38,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 ## Highlights
 
-:high_brightness: <font color='red'> **highlight!** </font>
+:high_brightness: <font color='red'> **News!** </font>
 
-- [**Benchmarking Low-Light Image Enhancement and Beyond**](recommended/recommended.md) [[Pdf]](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8) [[Summary]](recommended/recommended.md)
-  -  J. Liu, D. Xu, W. Yang, M. Fan, and H. Huang, “Benchmarking Low-Light Image Enhancement and Beyond,” *Int J Comput Vis*, Jan. 2021, doi: [10.1007/s11263-020-01418-8](https://doi.org/10.1007/s11263-020-01418-8).
+- Papers from ICCV2021 have been updated! Three new datasets from ICCV2021 are added!
 
 ------
 
@@ -67,6 +66,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 | The Extended Yale Face Database B | The extended Yale Face Database B contains 16128 images of 28 human subjects under 9 poses and 64 illumination conditions. | http://vision.ucsd.edu/~iskwak/ExtYaleDatabase/ExtYaleB.html |
 |    the nighttime image dataset    | A dataset which contains source images in bad visibility and their enhanced images processed by different enhancement algorithms |                  http://mlg.idm.pku.edu.cn/                  |
 |              VE-LOL               | A large-scale low-light image dataset serving both low/high-level vision with diversified scenes and contents as well as complex degradation in real scenarios, called Vision Enhancement in the LOw-Light condition (VE-LOL). |                                                              |
+|           SDSD dataset            | Seeing Dynamic Scene in the Dark: High-Quality Video Dataset with Mechatronic Alignment |            https://github.com/dvlab-research/SDSD            |
+|                MID                | Matching in the Dark: A Dataset for Matching Image Pairs of Low-light Scenes |        https://wenzhengchina.github.io/projects/mid/         |
+|       DeepHDRVideo-Dataset        | HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset |      https://guanyingc.github.io/DeepHDRVideo-Dataset/       |
 
 ---
 
@@ -231,13 +233,21 @@ Low light imaging and low light image enhancement have wild applications in our 
   *  Liu, Risheng, Long Ma, Jiaao Zhang, Xin Fan, and Zhongxuan Luo. “Retinex-Inspired Unrolling with Cooperative Prior Architecture Search for Low-Light Image Enhancement.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 10561–70, 2021.
   * :bookmark: retinex
 * **Deep denoising of flash and no-flash pairs for photography in low-light environments** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_Deep_Denoising_of_Flash_and_No-Flash_Pairs_for_Photography_in_CVPR_2021_paper.pdf)
-  * Xia, Zhihao, Michael Gharbi, Federico Perazzi, Kalyan Sunkavalli, and Ayan Chakrabarti. “Deep Denoising of Flash and No-Flash Pairs for Photography in Low-Light Environments.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2063–72, 2021.
+  * Zhihao Xia, Michael Gharbi, Federico Perazzi, Kalyan Sunkavalli, and Ayan Chakrabarti. “Deep Denoising of Flash and No-Flash Pairs for Photography in Low-Light Environments.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2063–72, 2021.
 * **HORUS** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Moseley_Extreme_Low-Light_Environment-Driven_Image_Denoising_Over_Permanently_Shadowed_Lunar_Regions_CVPR_2021_paper.pdf)
   * Moseley, Ben, Valentin Bickel, Ignacio G. Lopez-Francos, and Loveneesh Rana. “Extreme Low-Light Environment-Driven Image Denoising over Permanently Shadowed Lunar Regions with a Physical Noise Model.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 6317–27, 2021.
 * **Learning temporal consistency for low light video enhancement from single images** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Learning_Temporal_Consistency_for_Low_Light_Video_Enhancement_From_Single_CVPR_2021_paper.pdf) [[Code]](https://github.com/zkawfanx/StableLLVE)
   * Zhang, Fan, Yu Li, Shaodi You, and Ying Fu. “Learning Temporal Consistency for Low Light Video Enhancement from Single Images.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 4967–76, 2021.
 * **Nighttime visibility enhancement by increasing the dynamic range and suppression of light effects** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sharma_Nighttime_Visibility_Enhancement_by_Increasing_the_Dynamic_Range_and_Suppression_CVPR_2021_paper.pdf)
   * Sharma, Aashish, and Robby T. Tan. “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 11977–86, 2021.
+* **SDSD** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Seeing_Dynamic_Scene_in_the_Dark_A_High-Quality_Video_Dataset_ICCV_2021_paper.pdf) [[Code]](https://github.com/dvlab-research/SDSD)
+  * Ruixing Wang, Xiaogang Xu, Chi-Wing Fu, Jiangbo Lu, Bei Yu, and Jiaya Jia. “Seeing Dynamic Scene in the Dark: A High-Quality Video Dataset with Mechatronic Alignment.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 9700–9709, 2021.
+* **DeepHDRVideo**: [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_HDR_Video_Reconstruction_A_Coarse-To-Fine_Network_and_a_Real-World_Benchmark_ICCV_2021_paper.pdf) [[Web]](https://guanyingc.github.io/DeepHDRVideo) [[Code]](https://github.com/guanyingc/DeepHDRVideo)
+  * Chen, Guanying, Chaofeng Chen, Shi Guo, Zhetong Liang, Kwan-Yee K. Wong, and Lei Zhang. “HDR Video Reconstruction: A Coarse-to-Fine Network and a Real-World Benchmark Dataset.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2502–11, 2021.
+*  **MID**: [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Song_Matching_in_the_Dark_A_Dataset_for_Matching_Image_Pairs_ICCV_2021_paper.pdf) [[Web]](https://wenzhengchina.github.io/projects/mid/) [[Code]](https://github.com/Wenzhengchina/Matching-in-the-Dark)
+  * Song, Wenzheng, Masanori Suganuma, Xing Liu, Noriyuki Shimobayashi, Daisuke Maruta, and Takayuki Okatani. “Matching in the Dark: A Dataset for Matching Image Pairs of Low-Light Scenes.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 6029–38, 2021.
+* **UTVNet**: [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Adaptive_Unfolding_Total_Variation_Network_for_Low-Light_Image_Enhancement_ICCV_2021_paper.pdf) [[Code]](https://github.com/CharlieZCJ/UTVNet/tree/5e76495bf371371a7fc63a521fb6dd9de35ee241)
+  * Zheng, Chuanjun, Daming Shi, and Wentian Shi. “Adaptive Unfolding Total Variation Network for Low-Light Image Enhancement.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 4439–48, 2021.
 
 ### Other methods
 
