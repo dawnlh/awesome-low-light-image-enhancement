@@ -1,4 +1,4 @@
-# Resources for Low Light Image Enhancement
+# Awesome Low Light Image Enhancement
 **This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics, blogs and so on.**
 
 **Maintained by:** [Zhihong Zhang](https://github.com/dawnlh)
