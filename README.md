@@ -40,7 +40,8 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 :high_brightness: <font color='red'> **News!** </font>
 
-- Papers from ICCV2021 have been updated! Four new datasets from ICCV2021 are added!
+- Papers from **ICCV2021** have been updated! Four new datasets from ICCV2021 are added!
+- A new review article "Low-Light Image and Video Enhancement Using Deep Learning: A Survey" from **TPAMI** have been added!
 
 ------
 
@@ -300,6 +301,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 -  **Benchmarking Low-Light Image Enhancement and Beyond** [[Pdf]](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8)
    -  J. Liu, D. Xu, W. Yang, M. Fan, and H. Huang, “Benchmarking Low-Light Image Enhancement and Beyond,” *Int J Comput Vis*, Jan. 2021, doi: [10.1007/s11263-020-01418-8](https://doi.org/10.1007/s11263-020-01418-8).
    -  :high_brightness: <font color='red'> **highlight!** </font>
+-  **Low-Light Image and Video Enhancement Using Deep Learning: A Survey** [[Pdf]](https://doi.org/10.1109/TPAMI.2021.3126387)
+   -  Li, Chongyi, Chunle Guo, Ling-Hao Han, Jun Jiang, Ming-Ming Cheng, Jinwei Gu, and Chen Change Loy. “Low-Light Image and Video Enhancement Using Deep Learning: A Survey.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 2021, 1–1. https://doi.org/10.1109/TPAMI.2021.3126387.
+
 
 ---
 
