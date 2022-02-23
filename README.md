@@ -291,6 +291,9 @@ Low light imaging and low light image enhancement have wild applications in our 
    -  Yu, Jun, Xinlong Hao, and Peng He. “Single-Stage Face Detection under Extremely Low-Light Conditions.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 3523–32, 2021.
 -  **DeLiEve-Net**
    -  Zhou, Chu, Minggui Teng, Jin Han, Chao Xu, and Boxin Shi. “DeLiEve-Net: Deblurring Low-Light Images with Light Streaks and Local Events.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 1155–64, 2021.
+-  **MAET** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf) [[Code]](https://github.com/cuiziteng/ICCV_MAET)
+   -  Cui, Ziteng, Guo-Jun Qi, Lin Gu, Shaodi You, Zenghui Zhang, and Tatsuya Harada. “Multitask AET With Orthogonal Tangent Regularity for Dark Object Detection.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2553–62, 2021.
+
 
 ---
 
