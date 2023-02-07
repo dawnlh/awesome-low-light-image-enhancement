@@ -19,12 +19,10 @@ Low light imaging and low light image enhancement have wild applications in our 
 - [Methods](#methods)
   * [HE-based methods](#he-based-methods)
   * [Retinex-based methods](#retinex-based-methods)
-  * [CRM&fusion-based methods (Camera Respond Model)](#crm-fusion-based-methods--camera-respond-model-)
   * [Learning-based methods](#learning-based-methods)
   * [Other methods](#other-methods)
-  * [Latest methods](#latest-methods)
-  * [Related works](#related-works)
-- [Reviews](#reviews)
+- [Review and Benchmark](#Review-and-Benchmark)
+- [Related Works](#Related-Works)
 - [Metrics](#metrics)
 - [Blogs & Slices](#blogs---slices)
 - [Reference](#reference)
@@ -36,6 +34,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 :high_brightness: <font color='red'> **News!** </font>
 
+- Our new paper "[A mutually boosting dual sensor computational camera for high quality dark videography](https://linkinghub.elsevier.com/retrieve/pii/S1566253523000222)" based on RGB-NIR fusion have been published on **Infomation fusion**!
 - Papers from **CVPR2022** have been updated!
 - A new review article "Low-Light Image and Video Enhancement Using Deep Learning: A Survey" from **TPAMI** have been added!
 
@@ -136,187 +135,303 @@ Low light imaging and low light image enhancement have wild applications in our 
 - **LR3M** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9056796)
   - X. Ren, W. Yang, W. Cheng and J. Liu, "LR3M: Robust Low-Light Enhancement via Low-Rank Regularized Retinex Model," in *IEEE Transactions on Image Processing*, vol. 29, pp. 5862-5876, 2020
 
-### CRM&fusion-based methods (Camera Respond Model)
 
-- **A New Low-Light Image Enhancement Algorithm Using Camera Response Model** [[Code]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_ICCV.m) [[Pdf]](http://ieeexplore.ieee.org/document/8265567/) 
-  * [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang and W. Wang, "A New Low-Light Image Enhancement Algorithm Using Camera Response Model," *2017 IEEE International Conference on Computer Vision Workshops (ICCVW)*, Venice, 2017
-- **BIMEF** [[Code]](https://github.com/baidut/BIMEF) [[Pdf]](http://arxiv.org/abs/1711.00591)
-  - [Z.Ying](https://baidut.github.io/about/), G. Li, and W. Gao, “A Bio-Inspired Multi-Exposure Fusion Framework for Low-light Image Enhancement,” *arXiv:1711.00591 [cs]*, Nov. 2017
-- **Exposure Fusion Framework** [[Web]](https://baidut.github.io/OpenCE/caip2017.html) [[Code_matlab]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_CAIP.m) [[Code_python]](https://github.com/AndyHuang1995/Image-Contrast-Enhancement) [[Pdf]](https://link.springer.com/chapter/10.1007%2F978-3-319-64698-5_4)
-  - [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang, and W. Wang, “A New Image Contrast Enhancement Algorithm Using Exposure Fusion Framework,” in *International Conference on Computer Analysis of Images and Patterns*, 2017, pp. 36–46.
 
 ### Learning-based methods
 
 * **MSR-net** [[Pdf]](https://arxiv.org/pdf/1711.02488v1.pdf)
   
   * L. Shen, Z. Yue, F. Feng, Q. Chen, S. Liu, and J. Ma, “MSR-net:Low-light Image Enhancement Using Deep Convolutional Network,” *arXiv:1711.02488 [cs]*, Nov. 2017
+  
 * **Deep Burst Denoising** [[Pdf]](http://arxiv.org/abs/1712.05790)
   
   * C. Godard, K. Matzen, and M. Uyttendaele, “Deep Burst Denoising,” *arXiv:1712.05790 [cs, stat]*, Dec. 2017 
+  
 * **LLCNN** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305143)
   
   * L. Tao, C. Zhu, G. Xiang, Y. Li, H. Jia and X. Xie, "LLCNN: A convolutional neural network for low-light image enhancement," *2017 IEEE Visual Communications and Image Processing (VCIP)*, St. Petersburg, FL, 2017
   * [dataset](http://decsai.ugr.es/cvg/dbimagenes/)
+  
 * **LLNet** [[Pdf]](https://doi.org/10.1016/j.patcog.2016.06.008)
   
   * K. G. Lore, Adedotun Akintayo, and S. Sarkar, “LLNet: A deep autoencoder approach to natural low-light image enhancement,” *Pattern Recognition*, vol. 61, pp. 650–662, Jan. 2017
+  
 * **HDRNet** [[Web]](https://groups.csail.mit.edu/graphics/hdrnet/) [[Code]](https://github.com/google/hdrnet) [[Pdf]](https://arxiv.org/abs/1707.02880)
   
   * M. Gharbi, J. Chen, J. T. Barron, S. W. Hasinoff, and F. Durand, “Deep bilateral learning for real-time image enhancement,” *ACM Trans. Graph.*, vol. 36, no. 4, pp. 1–12, Jul. 2017
+  
 * **DSLR Quality Photos on Mobile Devices with Deep Convolutional Networks**  [[Pdf]](https://arxiv.org/abs/1704.02470)
   
   * A. Ignatov, N. Kobyshev, R. Timofte and K. Vanhoey, "DSLR-Quality Photos on Mobile Devices with Deep Convolutional Networks," *2017 IEEE International Conference on Computer Vision (ICCV)*, Venice, 2017
   * **Retinex-Net** [[Web]](https://daooshee.github.io/BMVC2018website/) [[Code]](https://github.com/weichen582/RetinexNet) [[Pdf]](https://arxiv.org/abs/1808.04560)
     * C. Wei, W. Wang, W. Yang, and J. Liu,"Deep Retinex Decomposition for Low-Light Enhancement." *BMVC 2018*, Oral Presentation.
     * :bookmark: retinex
+  
 * **MBLLEN** [[Web]](http://phi-ai.org/project/MBLLEN/default.htm) [[Code]](https://github.com/Lvfeifan/MBLLEN) [[Pdf]](http://bmvc2018.org/contents/papers/0700.pdf)
   
   * F. Lv, “MBLLEN: Low-light Image/Video Enhancement Using CNNs,” presented at the British Machine Vision Conference, 2018, p. 13.
+  
 * **LightenNet** [[Pdf]](https://doi.org/10.1016/j.patrec.2018.01.010)
   
   * C. Li, J. Guo, F. Porikli, and Y. Pang, “LightenNet: A Convolutional Neural Network for weakly illuminated image enhancement,” *Pattern Recognition Letters*, vol. 104, pp. 15–22, Mar. 2018
   * :bookmark: retinex
+  
 * **Learning to See in the Dark** [[Web]](https://cchen156.github.io/SID.html) [[Code]](https://github.com/cchen156/Learning-to-See-in-the-Dark.git) [[Pdf]](https://cchen156.github.io/paper/18CVPR_SID.pdf)
   
   * C. Chen, Q. Chen, J. Xu, and V. Koltun, “Learning to See in the Dark,” *CVPR 2018*, May 2018
   * real  [dataset](https://github.com/cchen156/Learning-to-See-in-the-Dark)
+  
 * **SICE** [[Code]](https://github.com/csjcai/SICE) [[Pdf]](https://doi.org/10.1109/TIP.2018.2794218)
   
   * J. Cai, S. Gu, and Z. Lei, “Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images,” *IEEE Transactions on Image Processing*, vol. 27, no. 4, pp. 2049–2062, 2018
+  
 * **White-Box** [[Code]](https://github.com/yuanming-hu/exposure) [[Pdf]](https://doi.org/10.1145/3181974)
   
   * [Y. Hu](http://taichi.graphics/me/), H. He, C. Xu, B. Wang, and S. Lin, “Exposure: A White-Box Photo Post-Processing Framework,” *ACM Trans. Graph.*, vol. 37, no. 2, pp. 1–17, Jul. 2018, doi: [10.1145/3181974](https://doi.org/10.1145/3181974).
+  
 * **GLADNet** [[Web]](https://daooshee.github.io/fgworkshop18Gladnet/) [[Code]](https://github.com/weichen582/GLADNet) [[Pdf]](https://github.com/daooshee/fgworkshop18Gladnet/blob/master/wwj_fg2018.pdf)
   
   * W. Wang, C. Wei, W. Yang and J. Liu, "GLADNet: Low-Light Enhancement Network with Global Awareness," *2018 13th IEEE International Conference on Automatic Face & Gesture Recognition*
   * synthetic [dataset](https://daooshee.github.io/fgworkshop18Gladnet/) generated from RAW images
+  
 * **A Pipeline Neural Network for Low-Light Image Enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/8607964/)
   
   * Y. Guo, X. Ke, J. Ma, and J. Zhang, “A Pipeline Neural Network for Low-Light Image Enhancement,” *IEEE Access*, vol. 7, pp. 13737–13744, 2019
+  
 * **KinD** [[Code]](https://github.com/zhangyhuaee/KinD) [[Code+]](https://github.com/zhangyhuaee/KinD_plus) [[Pdf]](http://arxiv.org/abs/1905.04161)
   
   * Y. Zhang, J. Zhang, and [X. Guo](https://sites.google.com/view/xjguo/homepage?authuser=0),, “Kindling the Darkness: A Practical Low-light Image Enhancer,” *arXiv:1905.04161 [cs]*, May 2019
+  
 * **Learning Digital Camera Pipeline for Extreme Low-Light Imaging** [[Pdf]](https://arxiv.org/abs/1904.05939)
   
   * S. Waqas Zamir, A. Arora, S. Khan, F. Shahbaz Khan, and L. Shao, “Learning Digital Camera Pipeline for Extreme Low-Light Imaging,” *arXiv preprint arXiv:1904.05939*, 2019.
+  
 * **End-to-End Denoising of Dark Burst Images Using Recurrent Fully Convolutional Networks** [[Pdf]](https://arxiv.org/abs/1904.07483v1)
   
   * D. Zhao, L. Ma, S. Li, and D. Yu, “End-to-End Denoising of Dark Burst Images Using Recurrent Fully Convolutional Networks,” *arXiv:1904.07483 [cs]*, Apr. 2019 
+  
 * **A Bit Too Much** [[Pdf]](https://ieeexplore.ieee.org/document/8747325/)
   
   * P. Chandramouli, Claudio Bruschini, and  and A. Kolb, “A Bit Too Much? High Speed Imaging from Sparse Photon Counts,” in *2019 IEEE International Conference on Computational Photography (ICCP)*, Tokyo, Japan, May 2019
+  
 * **DeepISP** [[Pdf]](https://arxiv.org/abs/1801.06724)
   
   * E. Schwartz, R. Giryes, and A. M. Bronstein, “DeepISP: Towards Learning an End-to-End Image Processing Pipeline,” *IEEE Trans. on Image Process.*, vol. 28, no. 2, pp. 912–923, Feb. 2019
+  
 * **DeepUPE** [[Code]](https://github.com/wangruixing/DeepUPE) [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8953588)
   
   * R. Wang, Q. Zhang, C. Fu, X. Shen, W. Zheng and J. Jia, "Underexposed Photo Enhancement Using Deep Illumination Estimation," *2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Long Beach, CA, USA, 2019
   * :bookmark: retinex
+  
 * **Low-Light Image Enhancement via a Deep Hybrid Network**  [[Pdf]](https://ieeexplore.ieee.org/document/8692732)
   
   * W. Ren *et al*., "Low-Light Image Enhancement via a Deep Hybrid Network," in *IEEE Transactions on Image Processing*, vol. 28, no. 9, pp. 4364-4375, Sept. 2019
+  
 * **RDGAN** [[Code]](https://github.com/WangJY06/RDGAN/) [[Pdf]](https://ieeexplore.ieee.org/document/8785047)
   
   * J. Wang, W. Tan, X. Niu and B. Yan, "RDGAN: Retinex Decomposition Based Adversarial Learning for Low-Light Enhancement," *2019 IEEE International Conference on Multimedia and Expo (ICME)*, Shanghai, China, 2019
   * :bookmark: retinex
+  
 * **Deep Fusion Networks** [[Pdf]](https://ieeexplore.ieee.org/document/8803041)
   
   * Y. Cheng, J. Yan and Z. Wang, "Enhancement of Weakly Illuminated Images by Deep Fusion Networks," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+  
 * **Llrnet** [[Pdf]](https://ieeexplore.ieee.org/document/8803765)
   
   * S. Malik and R. Soundararajan, "Llrnet: A Multiscale Subband Learning Approach for Low Light Image Restoration," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+  
 * **Low-Lightgan** [[Pdf]](https://ieeexplore.ieee.org/document/8803328)
   
   * G. Kim, D. Kwon and J. Kwon, "Low-Lightgan: Low-Light Enhancement Via Advanced Generative Adversarial Network With Task-Driven Training," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
+  
 * **EnlightenGAN** [[Code]](https://github.com/TAMU-VITA/EnlightenGAN) [[Pdf]](https://arxiv.org/abs/1906.06972)
   
   * Y. Jiang *et al.*, “EnlightenGAN: Deep Light Enhancement without Paired Supervision,” *arXiv:1906.06972 [cs, eess]*, Jun. 2019
+  
 * **An Effective Network with ConvLSTM for Low-Light Image Enhancement** [[Pdf]](https://doi.org/10.1007/978-3-030-31723-2_19)
   
   * Y. Xiang, Y. Fu, L. Zhang, and H. Huang, “An Effective Network with ConvLSTM for Low-Light Image Enhancement,” in *Pattern Recognition and Computer Vision*, Cham, 2019.
+  
 * **Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise** [[Pdf]](https://ieeexplore.ieee.org/document/9011000)
   
   * W. Wang, X. Chen, C. Yang, X. Li, X. Hu and T. Yue, "Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 4110-4118, doi: 10.1109/ICCV.2019.00421.
+  
 * **Low-Light Image Enhancement with Attention and Multi-level Feature Fusion** [[Pdf]](https://ieeexplore.ieee.org/document/8794872)
   
   * L. Wang, G. Fu, Z. Jiang, G. Ju and A. Men, "Low-Light Image Enhancement with Attention and Multi-level Feature Fusion," *2019 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)*, Shanghai, China, 2019
+  
 * **Zero-DCE** [[Web]](https://li-chongyi.github.io/Proj_Zero-DCE.html) [[Code]](https://github.com/Li-Chongyi/Zero-DCE) [[Pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf)
   
   * C. Guo *et al.*, “Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement,” in *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Seattle, WA, USA, Jun. 2020, pp. 1777–1786, doi: [10.1109/CVPR42600.2020.00185](https://doi.org/10.1109/CVPR42600.2020.00185).
+  
 * **Learning to Restore Low-Light Images via Decomposition-and-Enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/9156446)
   
   * K. Xu, X. Yang, B. Yin and R. W. H. Lau, "Learning to Restore Low-Light Images via Decomposition-and-Enhancement," *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Seattle, WA, USA, 2020, pp. 2278-2287, doi: 10.1109/CVPR42600.2020.00235.
+  
 * **DRBN** [[Pdf]](https://ieeexplore.ieee.org/document/9156559)[[Paper Link\]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.pdf) [[Project Page\]](https://github.com/flyywh/CVPR-2020-Semi-Low-Light) [[Slides\]](https://github.com/flyywh/CVPR-2020-Semi-Low-Light/blob/master)
   
   * W. Yang, S. Wang, Y. Fang, Y. Wang and J. Liu, "From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement," 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 2020, pp. 3060-3069, doi: 10.1109/CVPR42600.2020.00313.
+  
 * **STARnet**[[Web]](https://alterzero.github.io/projects/STAR.html) [[Code]](https://github.com/alterzero/STARnet) [[Pdf]](https://alterzero.github.io/projects/star_cvpr2020.pdf)
   
   * Muhammad Haris, Greg Shakhnarovich, and Norimichi Ukita, "Space-Time-Aware Multi-Resolution Video Enhancement", Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+  
 * **DeepLPF** [[Code]](https://github.com/sjmoran/DeepLPF)[[Pdf]](https://arxiv.org/abs/2003.13985)
   
   * Moran, S., Marza, P., McDonagh, S., Parisot, S., Slabaugh, G. DeepLPF: Deep Local Parametric Filters for Image Enhancement, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+  
 * **Image-Adaptive-3DLUT** [[Code]](https://github.com/HuiZeng/Image-Adaptive-3DLUT) [[Pdf]](https://ieeexplore.ieee.org/document/9206076)
   
   * H. Zeng, J. Cai, L. Li, Z. Cao and L. Zhang, "Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time," in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
-* **RUAS** [[Web]](http://dutmedia.org/RUAS/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Retinex-Inspired_Unrolling_With_Cooperative_Prior_Architecture_Search_for_Low-Light_Image_CVPR_2021_paper.pdf) [[Code]](https://github.com/dut-media-lab/RUAS)
   
+* **Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement** [[Pdf]](http://arxiv.org/abs/2005.07343)
+
+  * X. Li *et al.*, “Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement,” *arXiv:2005.07343 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online].
+
+* **Self-supervised Image Enhancement Network** [[Pdf]](https://arxiv.org/abs/2002.11300)
+
+  * Y. Zhang, X. Di, B. Zhang, and C. Wang, “Self-supervised Image Enhancement Network: Training with Low Light Images Only,” *arXiv:2002.11300 [cs, eess]*, Feb. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2002.11300.
+
+* **Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks** [[Pdf]](http://arxiv.org/abs/2005.02818) 
+
+  * W. Xiong, D. Liu, X. Shen, C. Fang, and J. Luo, “Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks,” *arXiv:2005.02818 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online].
+
+* **Learning an Adaptive Model for Extreme Low-light Raw Image Processing** [Pdf] [[Code]](https://github.com/505030475/ExtremeLowLight)
+
+  * Fu, Qingxu, Xiaoguang Di, and Yu Zhang. “Learning an Adaptive Model for Extreme Low-Light Raw Image Processing.” *IET Image Processing* 14, no. 14 (2020): 3433–43. 
+
+* **RUAS** [[Web]](http://dutmedia.org/RUAS/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Retinex-Inspired_Unrolling_With_Cooperative_Prior_Architecture_Search_for_Low-Light_Image_CVPR_2021_paper.pdf) [[Code]](https://github.com/dut-media-lab/RUAS)
+
   * Liu, Risheng, Long Ma, Jiaao Zhang, Xin Fan, and Zhongxuan Luo. “Retinex-Inspired Unrolling with Cooperative Prior Architecture Search for Low-Light Image Enhancement.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 10561–70, 2021.
   * :bookmark: retinex
+
 * **Deep denoising of flash and no-flash pairs for photography in low-light environments** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_Deep_Denoising_of_Flash_and_No-Flash_Pairs_for_Photography_in_CVPR_2021_paper.pdf)
-  
+
   * Zhihao Xia, Michael Gharbi, Federico Perazzi, Kalyan Sunkavalli, and Ayan Chakrabarti. “Deep Denoising of Flash and No-Flash Pairs for Photography in Low-Light Environments.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2063–72, 2021.
+
 * **HORUS** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Moseley_Extreme_Low-Light_Environment-Driven_Image_Denoising_Over_Permanently_Shadowed_Lunar_Regions_CVPR_2021_paper.pdf)
-  
+
   * Moseley, Ben, Valentin Bickel, Ignacio G. Lopez-Francos, and Loveneesh Rana. “Extreme Low-Light Environment-Driven Image Denoising over Permanently Shadowed Lunar Regions with a Physical Noise Model.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 6317–27, 2021.
+
+* **Attention Guided Low-light Image Enhancement** [[Pdf]](https://link.springer.com/10.1007/s11263-021-01466-8) [[Code]](https://github.com/yu-li/AGLLNet)
+
+  * Lv, Feifan, Yu Li, and Feng Lu. “Attention Guided Low-Light Image Enhancement with a Large Scale Low-Light Simulation Dataset.” *International Journal of Computer Vision* 129, no. 7 (July 2021): 2175–93.
+
 * **Learning temporal consistency for low light video enhancement from single images** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Learning_Temporal_Consistency_for_Low_Light_Video_Enhancement_From_Single_CVPR_2021_paper.pdf) [[Code]](https://github.com/zkawfanx/StableLLVE)
-  
+
   * Zhang, Fan, Yu Li, Shaodi You, and Ying Fu. “Learning Temporal Consistency for Low Light Video Enhancement from Single Images.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 4967–76, 2021.
+
 * **Nighttime visibility enhancement by increasing the dynamic range and suppression of light effects** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sharma_Nighttime_Visibility_Enhancement_by_Increasing_the_Dynamic_Range_and_Suppression_CVPR_2021_paper.pdf)
-  
+
   * Sharma, Aashish, and Robby T. Tan. “Nighttime Visibility Enhancement by Increasing the Dynamic Range and Suppression of Light Effects.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 11977–86, 2021.
+
 * **SDSD** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Seeing_Dynamic_Scene_in_the_Dark_A_High-Quality_Video_Dataset_ICCV_2021_paper.pdf) [[Code]](https://github.com/dvlab-research/SDSD)
-  
+
   * Ruixing Wang, Xiaogang Xu, Chi-Wing Fu, Jiangbo Lu, Bei Yu, and Jiaya Jia. “Seeing Dynamic Scene in the Dark: A High-Quality Video Dataset with Mechatronic Alignment.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 9700–9709, 2021.
+
 * **DeepHDRVideo**: [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_HDR_Video_Reconstruction_A_Coarse-To-Fine_Network_and_a_Real-World_Benchmark_ICCV_2021_paper.pdf) [[Web]](https://guanyingc.github.io/DeepHDRVideo) [[Code]](https://github.com/guanyingc/DeepHDRVideo)
-  
+
   * Chen, Guanying, Chaofeng Chen, Shi Guo, Zhetong Liang, Kwan-Yee K. Wong, and Lei Zhang. “HDR Video Reconstruction: A Coarse-to-Fine Network and a Real-World Benchmark Dataset.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2502–11, 2021.
+
 * **MID** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Song_Matching_in_the_Dark_A_Dataset_for_Matching_Image_Pairs_ICCV_2021_paper.pdf) [[Web]](https://wenzhengchina.github.io/projects/mid/) [[Code]](https://github.com/Wenzhengchina/Matching-in-the-Dark)
-  
+
   * Song, Wenzheng, Masanori Suganuma, Xing Liu, Noriyuki Shimobayashi, Daisuke Maruta, and Takayuki Okatani. “Matching in the Dark: A Dataset for Matching Image Pairs of Low-Light Scenes.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 6029–38, 2021.
+
 * **UTVNet** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Adaptive_Unfolding_Total_Variation_Network_for_Low-Light_Image_Enhancement_ICCV_2021_paper.pdf) [[Code]](https://github.com/CharlieZCJ/UTVNet/tree/5e76495bf371371a7fc63a521fb6dd9de35ee241)
-  
+
   * Zheng, Chuanjun, Daming Shi, and Wentian Shi. “Adaptive Unfolding Total Variation Network for Low-Light Image Enhancement.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 4439–48, 2021.
+
 * **LLVIP** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021W/RLQ/papers/Jia_LLVIP_A_Visible-Infrared_Paired_Dataset_for_Low-Light_Vision_ICCVW_2021_paper.pdf) [[Code]](https://github.com/bupt-ai-cz/LLVIP) [[Web]](https://bupt-ai-cz.github.io/LLVIP/) 
-  
+
   * Jia, Xinyu, Chuang Zhu, Minzhen Li, Wenqi Tang, and Wenli Zhou. “LLVIP: A Visible-Infrared Paired Dataset for Low-Light Vision.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 3496–3504, 2021.
+
 * **R2RNet** [[Pdf]](http://arxiv.org/abs/2106.14501) [[Code]](https://github.com/abcdef2000/R2RNet) 
-  
+
   * Hai, Jiang, Zhu Xuan, Songchen Han, Ren Yang, Yutong Hao, Fengzhu Zou, and Fang Lin. “R2RNet: Low-Light Image Enhancement via Real-Low to Real-Normal Network.” *ArXiv:2106.14501 [Cs, Eess]*, November 11, 2021. 
+
 * **LLFlow**  [[Pdf]](https://arxiv.org/pdf/2109.05923.pdf) [[Code]](https://github.com/wyf0912/LLFlow) [[Web]](https://wyf0912.github.io/LLFlow/) 
-  
+
   * Yufei Wang, Renjie Wan, Wenhan Yang, Haoliang Li, Lap-pui Chau, and Alex C. Kot “Low-Light Image Enhancement with Normalizing Flow.” In *AAAI Conference on Artificial Intelligence*, 2022.
+
 * **SCI**  [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Ma_Toward_Fast_Flexible_and_Robust_Low-Light_Image_Enhancement_CVPR_2022_paper.html) [[Code]](https://github.com/vis-opt-group/SCI) 
-  
+
   * Ma, Long, Tengyu Ma, Risheng Liu, Xin Fan, and Zhongxuan Luo. “Toward Fast, Flexible, and Robust Low-Light Image Enhancement.”  In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2022.
+
 * **DCC-Net** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Deep_Color_Consistent_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.html)
-  
+
   * Zhang, Zhao, Huan Zheng, Richang Hong, Mingliang Xu, Shuicheng Yan, and Meng Wang. “Deep Color Consistent Network for Low-Light Image Enhancement.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 1899–1908, 2022.
+
 * **URetinex-Net** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Wu_URetinex-Net_Retinex-Based_Deep_Unfolding_Network_for_Low-Light_Image_Enhancement_CVPR_2022_paper.html) [[Code]](https://github.com/AndersonYong/URetinex-Net)
-  
+
   * Wu, Wenhui, Jian Weng, Pingping Zhang, Xu Wang, Wenhan Yang, and Jianmin Jiang. “URetinex-Net: Retinex-Based Deep Unfolding Network for Low-Light Image Enhancement.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5901–10, 2022.
+
 * **Day-to-Night** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Punnappurath_Day-to-Night_Image_Synthesis_for_Training_Nighttime_Neural_ISPs_CVPR_2022_paper.html) [[Code]](https://github.com/SamsungLabs/day-to-night)
-  
+
   * Punnappurath, Abhijith, Abdullah Abuolaim, Abdelrahman Abdelhamed, Alex Levinshtein, and Michael S. Brown. “Day-to-Night Image Synthesis for Training Nighttime Neural ISPs,” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 10769–78, 2022. 
+
 * **SNR-Aware Low-Light Image Enhancement** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Xu_SNR-Aware_Low-Light_Image_Enhancement_CVPR_2022_paper.html) [[Code]](https://github.com/dvlab-research/SNR-Aware-Low-Light-Enhance)
-  
+
   * Xu, Xiaogang, Ruixing Wang, Chi-Wing Fu, and Jiaya Jia. “SNR-Aware Low-Light Image Enhancement,” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 17714–24, 2022. 
+
 * **Dancing Under the Stars** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Monakhova_Dancing_Under_the_Stars_Video_Denoising_in_Starlight_CVPR_2022_paper.html)
-  
+
   * Monakhova, Kristina, Stephan R. Richter, Laura Waller, and Vladlen Koltun. “Dancing Under the Stars: Video Denoising in Starlight.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 16241–51, 2022. 
+
 * **Abandoning the Bayer-Filter To See in the Dark** [[Pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Dong_Abandoning_the_Bayer-Filter_To_See_in_the_Dark_CVPR_2022_paper.html) [[Code]](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark)
   * Dong, Xingbo, Wanyan Xu, Zhihui Miao, Lan Ma, Chao Zhang, Jiewen Yang, Zhe Jin, Andrew Beng Jin Teoh, and Jiajun Shen. “Abandoning the Bayer-Filter To See in the Dark.” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 17431–40, 2022.
+
 * **night enhancement** [[Pdf]](https://arxiv.org/pdf/2207.10564.pdf) [[Code]](https://github.com/jinyeying/night-enhancement)
   * Jin, Yeying, Wenhan Yang, and Robby T. Tan. “Unsupervised Night Image Enhancement: When Layer Decomposition Meets Light-Effects Suppression.” In ECCV, 2022. 
+
+* **knowledge distillation for low-light image enhancement** [[Pdf]](https://doi.org/10.1016/j.neucom.2022.10.083) 
+
+  * Li, Ziwen, Yuehuan Wang, and Jinpu Zhang. “Low-Light Image Enhancement with Knowledge Distillation.” *Neurocomputing*, 2022. https://doi.org/10.1016/j.neucom.2022.10.083.
+
+* **Brain-like retinex: A biologically plausible retinex algorithm for low light image enhancement** [[Pdf]](http://dx.doi.org/10.1016/j.patcog.2022.109195) 
+
+  * Cai, Rongtai, and Zekun Chen. “Brain-like Retinex: A Biologically Plausible Retinex Algorithm for Low Light Image Enhancement.” *Pattern Recognition*, 2022. https://doi.org/10.1016/j.patcog.2022.109195.
+  * :bookmark: retinex
+
+* **LEDNet** [[Pdf]](https://link.springer.com/chapter/10.1007/978-3-031-20068-7_33) [[Code]](https://github.com/sczhou/LEDNet)
+
+  * Zhou, Shangchen, Chongyi Li, and Chen Change Loy. “LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark.” In *Computer Vision – ECCV 2022*
+
+* **Bread** [[Pdf]](http://dx.doi.org/10.1007/s11263-022-01667-9) [[Code]](https://github.com/mingcv/Bread?utm_source=catalyzex.com)
+
+  * Guo, Xiaojie, and Qiming Hu. “Low-Light Image Enhancement via Breaking down the Darkness.” *International Journal of Computer Vision*, 2022.
+
+* **LE-GAN** [[Pdf]](https://www.sciencedirect.com/science/article/pii/S0950705121011151)
+
+  * Fu, Ying, Yang Hong, Linwei Chen, and Shaodi You. “LE-GAN: Unsupervised Low-Light Image Enhancement Network Using Attention Module and Identity Invariant Loss.” *Knowledge-Based Systems*, EI, 240 (2022): 108010–20.
+
+* **ChebyLighter** [[Pdf]](https://dl.acm.org/doi/10.1145/3503161.3548135)
+
+  * Pan, Jinwang, Deming Zhai, Yuanchao Bai, Junjun Jiang, Debin Zhao, and Xianming Liu. “ChebyLighter: Optimal Curve Estimation for Low-Light Image Enhancement.” In *Proceedings of the 30th ACM International Conference on Multimedia*, 1358–66. Lisboa Portugal: ACM, 2022.
+
+* **LAE-Net** [[Pdf]](http://dx.doi.org/10.1016/j.patcog.2022.109039)
+
+  * Liu, Xiaokai, Weihao Ma, Xiaorui Ma, and Jie Wang. “LAE-Net: A Locally-Adaptive Embedding Network for Low-Light Image Enhancement.” *Pattern Recognition*, 2022.
+
+* **LSR** [[Pdf]](https://doi.org/10.1016/j.neucom.2022.07.058)
+
+  * Rasheed, Muhammad Tahir, and Daming Shi. “LSR: Lightening Super-Resolution Deep Network for Low-Light Image Enhancement.” *Neurocomputing*, 2022.
+
+* **DCMAN** [[Pdf]](https://doi.org/10.1016/j.inffus.2023.01.013)
+
+  - Cheng, Yuxiao, Runzhao Yang, Zhihong Zhang, Jinli Suo, and Qionghai Dai. “A Mutually Boosting Dual Sensor Computational Camera for High Quality Dark Videography.” *Information Fusion*, EI, 93 (May 2023): 429–40.
+  - :bookmark: fusion
+
+* **Infrared and Low-Light Visible Image Fusion Based on Hybrid Multiscale Decomposition and Adaptive Light Adjustment.** [[Pdf]](https://doi.org/10.1016/j.optlaseng.2022.107268)
+
+  - Zou, Dengpeng, and Bin Yang. “Infrared and Low-Light Visible Image Fusion Based on Hybrid Multiscale Decomposition and Adaptive Light Adjustment.” *Optics and Lasers in Engineering*, 2022.
+  - :bookmark: fusion
+
+* **DarkVisionNet** [[Pdf]](https://doi.org/10.1609/aaai.v36i1.19995) [Code]
+
+  - Jin, Shuangping, Bingbing Yu, Minhao Jing, Yi Zhou, Jiajun Liang, and Renhe Ji. “DarkVisionNet: Low-Light Imaging via RGB-NIR Fusion with Deep Inconsistency Prior.” *Proceedings of the AAAI Conference on Artificial Intelligence* 36, no. 1 (June 28, 2022): 1104–12.
+  - :bookmark: fusion
+
+  
 
 
 ### Other methods
@@ -324,81 +439,89 @@ Low light imaging and low light image enhancement have wild applications in our 
 - **Fast centre-surround contrast modification** [[Pdf]](https://ieeexplore.ieee.org/document/4455541)
   
   - V. Vonikakis, I. Andreadis and A. Gasteratos, "Fast centre-surround contrast modification," in *IET Image Processing*, vol. 2, no. 1, pp. 19-34, Feb. 2008
-
 - **Fast efficient algorithm for enhancement of low lighting video** [[Pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6012107) [[Code]](codes/XuanDong-Method.m)
   
   - Xuan Dong *et al*., "Fast efficient algorithm for enhancement of low lighting video," *2011 IEEE International Conference on Multimedia and Expo*, Barcelona, 2011
 
+- **A New Low-Light Image Enhancement Algorithm Using Camera Response Model** [[Code]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_ICCV.m) [[Pdf]](http://ieeexplore.ieee.org/document/8265567/) 
+  * [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang and W. Wang, "A New Low-Light Image Enhancement Algorithm Using Camera Response Model," *2017 IEEE International Conference on Computer Vision Workshops (ICCVW)*, Venice, 2017
+- **BIMEF** [[Code]](https://github.com/baidut/BIMEF) [[Pdf]](http://arxiv.org/abs/1711.00591)
+  - [Z.Ying](https://baidut.github.io/about/), G. Li, and W. Gao, “A Bio-Inspired Multi-Exposure Fusion Framework for Low-light Image Enhancement,” *arXiv:1711.00591 [cs]*, Nov. 2017
+  - :bookmark: fusion
+- **Exposure Fusion Framework** [[Web]](https://baidut.github.io/OpenCE/caip2017.html) [[Code_matlab]](https://github.com/baidut/OpenCE/blob/master/ours/Ying_2017_CAIP.m) [[Code_python]](https://github.com/AndyHuang1995/Image-Contrast-Enhancement) [[Pdf]](https://link.springer.com/chapter/10.1007%2F978-3-319-64698-5_4)
+  - [Z.Ying](https://baidut.github.io/about/), G. Li, Y. Ren, R. Wang, and W. Wang, “A New Image Contrast Enhancement Algorithm Using Exposure Fusion Framework,” in *International Conference on Computer Analysis of Images and Patterns*, 2017, pp. 36–46.
+
 - **ALSM** [[Pdf]](https://doi.org/10.1109/TIP.2019.2922106)
-  
+
   - Y.-F. Wang, H.-M. Liu, and Z.-W. Fu, “Low-Light Image Enhancement via the Absorption Light Scattering Model,” *IEEE Transactions on Image Processing*, vol. 28, no. 11, pp. 5679–5690, Nov. 2019
 
 - **Maximum and Guided Filters** [[Pdf]](file:///D:/ZoteroData/storage/JBKLL8T5/8803591.html)
-  
+
   - D. Zhu, G. Chen, P. N. Michelini and H. Liu, "Fast Image Enhancement Based on Maximum and Guided Filters," *2019 IEEE International Conference on Image Processing (ICIP)*, Taipei, Taiwan, 2019
 
-### Latest methods
-
-* Y. Zhang, X. Di, B. Zhang, and C. Wang, “Self-supervised Image Enhancement Network: Training with Low Light Images Only,” *arXiv:2002.11300 [cs, eess]*, Feb. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2002.11300.
-
-* F. Lv, Y. Li, and F. Lu, “Attention Guided Low-light Image Enhancement with a Large Scale Low-light Simulation Dataset,” *arXiv:1908.00682 [cs, eess]*, Mar. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/1908.00682.
-
-* X. Li *et al.*, “Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement,” *arXiv:2005.07343 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.07343.
-
-* W. Xiong, D. Liu, X. Shen, C. Fang, and J. Luo, “Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks,” *arXiv:2005.02818 [cs, eess]*, May 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2005.02818.
-
-* Q. Fu, X. Di, and Y. Zhang, “Learning an Adaptive Model for Extreme Low-light Raw Image Processing,” *arXiv:2004.10447 [cs, eess]*, Apr. 2020, Accessed: May 25, 2020. [Online]. Available: http://arxiv.org/abs/2004.10447.
-
-### Related works
-
-- **Improving the robustness in feature detection by local contrast enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/6295482)
   
-  - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, "Improving the robustness in feature detection by local contrast enhancement," *2012 IEEE International Conference on Imaging Systems and Techniques Proceedings*, Manchester, 2012
-  - [dataset VV](https://sites.google.com/site/vonikakis/datasets)
-
-- **Automatic Photo Adjustment Using Deep Neural Networks** [[Web]](https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust) [[Code]](https://github.com/stephenyan1984/dl-image-enhance/wiki) [[Pdf]](https://arxiv.org/abs/1412.7725v2)
-  
-  - Z. Yan, H. Zhang, B. Wang, S. Paris, and Y. Yu, “Automatic Photo Adjustment Using Deep Neural Networks,” *ACM Transactions on Graphics*, 2015.
-
-- **Distort-and-Recover** [[Code]](https://sites.google.com/view/distort-and-recover/) [[Pdf]](https://doi.org/10.1109/CVPR.2018.00621)
-  
-  - J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
-
-- **REGDet**[[Pdf]](https://arxiv.org/abs/2007.10963)
-  
-  - J. Liang *et al.*, “Recurrent exposure generation for low-light face detection,” 2020.
-  - :bookmark: application - face detection
-
-- **HLA-Face**  [[Web]](https://daooshee.github.io/HLA-Face-Website/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_HLA-Face_Joint_High-Low_Adaptation_for_Low_Light_Face_Detection_CVPR_2021_paper.pdf) [[Code]](https://github.com/daooshee/HLA-Face-Code) 
-  
-  - Wang, Wenjing, Wenhan Yang, and Jiaying Liu. “HLA-Face: Joint High-Low Adaptation for Low Light Face Detection.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 16195–204, 2021.
-  - :bookmark: application - face detection
-
-- **Single-Stage Face Detection** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021W/RLQ/papers/Yu_Single-Stage_Face_Detection_Under_Extremely_Low-Light_Conditions_ICCVW_2021_paper.pdf)
-  
-  - Yu, Jun, Xinlong Hao, and Peng He. “Single-Stage Face Detection under Extremely Low-Light Conditions.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 3523–32, 2021.
-
-- **DeLiEve-Net**
-  
-  - Zhou, Chu, Minggui Teng, Jin Han, Chao Xu, and Boxin Shi. “DeLiEve-Net: Deblurring Low-Light Images with Light Streaks and Local Events.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 1155–64, 2021.
-
-- **MAET** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf) [[Code]](https://github.com/cuiziteng/ICCV_MAET)
-  
-  - Cui, Ziteng, Guo-Jun Qi, Lin Gu, Shaodi You, Zenghui Zhang, and Tatsuya Harada. “Multitask AET With Orthogonal Tangent Regularity for Dark Object Detection.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2553–62, 2021.
-
-- **Photon-Net: Photon-Starved Scene Inference using Single Photon Cameras** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Goyal_Photon-Starved_Scene_Inference_Using_Single_Photon_Cameras_ICCV_2021_paper.pdf)[[Video]](https://www.youtube.com/watch?v=r1YvHnGbi6k)[[Code]](https://github.com/bhavyagoyal/spclowlight/)
-  
-  - Goyal, Bhavya, and Mohit Gupta. "Photon-Starved Scene Inference using Single Photon Cameras." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.
 
 ---
 
-## Reviews
+## Review and Benchmark
 
 - **Benchmarking Low-Light Image Enhancement and Beyond** [[Pdf]](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8)
   - J. Liu, D. Xu, W. Yang, M. Fan, and H. Huang, “Benchmarking Low-Light Image Enhancement and Beyond,” *Int J Comput Vis*, Jan. 2021, doi: [10.1007/s11263-020-01418-8](https://doi.org/10.1007/s11263-020-01418-8).
   - :high_brightness: <font color='red'> **highlight!** </font>
+- **Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond** [[Pdf]](http://arxiv.org/abs/2212.10772)
+  - Zheng, Shen, Yiling Ma, Jinqian Pan, Changjie Lu, and Gaurav Gupta. “Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond.” arXiv, January 20, 2023. 
+
 - **Low-Light Image and Video Enhancement Using Deep Learning: A Survey** [[Pdf]](https://doi.org/10.1109/TPAMI.2021.3126387)
-  - Li, Chongyi, Chunle Guo, Ling-Hao Han, Jun Jiang, Ming-Ming Cheng, Jinwei Gu, and Chen Change Loy. “Low-Light Image and Video Enhancement Using Deep Learning: A Survey.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 2021, 1–1. https://doi.org/10.1109/TPAMI.2021.3126387.
+  - Li, Chongyi, Chunle Guo, Ling-Hao Han, Jun Jiang, Ming-Ming Cheng, Jinwei Gu, and Chen Change Loy. “Low-Light Image and Video Enhancement Using Deep Learning: A Survey.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 2021, 1–1.
+- **DarkVision** [[Pdf]](https://arxiv.org/abs/2301.06269)
+  - Zhang, Bo, Yuchen Guo, Runzhao Yang, Zhihong Zhang, Jiayi Xie, Jinli Suo, and Qionghai Dai. “DarkVision: A Benchmark for Low-Light Image/Video Perception.” arXiv, January 16, 2023.
+  - :high_brightness: <font color='red'> **highlight!** </font>
+
+
+
+
+## Related Works
+
+- **Improving the robustness in feature detection by local contrast enhancement** [[Pdf]](https://ieeexplore.ieee.org/document/6295482)
+
+  - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, "Improving the robustness in feature detection by local contrast enhancement," *2012 IEEE International Conference on Imaging Systems and Techniques Proceedings*, Manchester, 2012
+  - [dataset VV](https://sites.google.com/site/vonikakis/datasets)
+
+- **Automatic Photo Adjustment Using Deep Neural Networks** [[Web]](https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust) [[Code]](https://github.com/stephenyan1984/dl-image-enhance/wiki) [[Pdf]](https://arxiv.org/abs/1412.7725v2)
+
+  - Z. Yan, H. Zhang, B. Wang, S. Paris, and Y. Yu, “Automatic Photo Adjustment Using Deep Neural Networks,” *ACM Transactions on Graphics*, 2015.
+
+- **Distort-and-Recover** [[Code]](https://sites.google.com/view/distort-and-recover/) [[Pdf]](https://doi.org/10.1109/CVPR.2018.00621)
+
+  - J. Park, J. Y. Lee, D. Yoo, and I. S. Kweon, “Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning,” presented at the CVPR, 2018, doi: [10.1109/CVPR.2018.00621](https://doi.org/10.1109/CVPR.2018.00621).
+
+- **REGDet**[[Pdf]](https://arxiv.org/abs/2007.10963)
+
+  - J. Liang *et al.*, “Recurrent exposure generation for low-light face detection,” 2020.
+  - :bookmark: application - face detection
+
+- **HLA-Face**  [[Web]](https://daooshee.github.io/HLA-Face-Website/) [[Pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_HLA-Face_Joint_High-Low_Adaptation_for_Low_Light_Face_Detection_CVPR_2021_paper.pdf) [[Code]](https://github.com/daooshee/HLA-Face-Code) 
+
+  - Wang, Wenjing, Wenhan Yang, and Jiaying Liu. “HLA-Face: Joint High-Low Adaptation for Low Light Face Detection.” In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 16195–204, 2021.
+  - :bookmark: application - face detection
+
+- **Single-Stage Face Detection** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021W/RLQ/papers/Yu_Single-Stage_Face_Detection_Under_Extremely_Low-Light_Conditions_ICCVW_2021_paper.pdf)
+
+  - Yu, Jun, Xinlong Hao, and Peng He. “Single-Stage Face Detection under Extremely Low-Light Conditions.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 3523–32, 2021.
+
+- **DeLiEve-Net**
+
+  - Zhou, Chu, Minggui Teng, Jin Han, Chao Xu, and Boxin Shi. “DeLiEve-Net: Deblurring Low-Light Images with Light Streaks and Local Events.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*, 1155–64, 2021.
+
+- **MAET** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Cui_Multitask_AET_With_Orthogonal_Tangent_Regularity_for_Dark_Object_Detection_ICCV_2021_paper.pdf) [[Code]](https://github.com/cuiziteng/ICCV_MAET)
+
+  - Cui, Ziteng, Guo-Jun Qi, Lin Gu, Shaodi You, Zenghui Zhang, and Tatsuya Harada. “Multitask AET With Orthogonal Tangent Regularity for Dark Object Detection.” In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2553–62, 2021.
+
+- **Photon-Net: Photon-Starved Scene Inference using Single Photon Cameras** [[Pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Goyal_Photon-Starved_Scene_Inference_Using_Single_Photon_Cameras_ICCV_2021_paper.pdf)[[Video]](https://www.youtube.com/watch?v=r1YvHnGbi6k)[[Code]](https://github.com/bhavyagoyal/spclowlight/)
+
+  - Goyal, Bhavya, and Mohit Gupta. "Photon-Starved Scene Inference using Single Photon Cameras." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.
+
+
 
 ---
 
@@ -438,3 +561,5 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 - :high_brightness: <font color='red'> **highlight!** </font>
 - :bookmark: retinex
+- :bookmark: fusion
+- :bookmark: application - face detection
