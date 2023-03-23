@@ -163,6 +163,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2022 | Applied Soft Computing  | A predictive intelligence approach for low-light enhancement | [pdf](https://linkinghub.elsevier.com/retrieve/pii/S1568494622004173) |                      |
 | 2022 | IEEE TMM  | Purifying Low-light Images via Near-Infrared Enlightened Image | [pdf](https://ieeexplore.ieee.org/document/9999306/) |                      |
 | 2023 | Information Fusion      | A Mutually Boosting Dual Sensor Computational Camera for High Quality Dark Videography | [pdf](https://doi.org/10.1016/j.inffus.2023.01.013) [code](https://github.com/jarrycyx/dual-channel-low-light-video-public) | DCMAN                |
+| 2023 | Pattern Recognit.      | TreEnhance: A tree search method for low-light image enhancement | [pdf](https://www.sciencedirect.com/science/article/pii/S0031320322007282?via%3Dihub) [code](https://github.com/OcraM17/TreEnhance) | TreEnhance                |
 | 2023 | AAAI                    | Ultra-high-definition low-light image enhancement: A benchmark and transformer-based method | [pdf](https://arxiv.org/abs/2212.11548) [code](https://github.com/TaoWangzj/LLFormer) [web](https://taowangzj.github.io/projects/LLFormer/) |                      |
 
 
