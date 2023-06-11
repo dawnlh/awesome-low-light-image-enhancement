@@ -35,9 +35,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 :high_brightness: <font color='red'> **News!** </font>
 
-- Our new paper "[A mutually boosting dual sensor computational camera for high quality dark videography](https://linkinghub.elsevier.com/retrieve/pii/S1566253523000222)" based on RGB-NIR fusion have been published on **Infomation fusion**!
-- Papers from **CVPR2022** have been updated!
-- A new review article "Low-Light Image and Video Enhancement Using Deep Learning: A Survey" from **TPAMI** have been added!
+- Papers from **CVPR2023** have been updated!
 
 
 
@@ -161,11 +159,17 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2022 | Opt. Lasers Eng.        | Infrared and Low-Light Visible Image Fusion Based on Hybrid Multiscale Decomposition and Adaptive Light Adjustment | [pdf](https://doi.org/10.1016/j.optlaseng.2022.107268)       |                      |
 | 2022 | Applied Soft Computing  | A predictive intelligence approach for low-light enhancement | [pdf](https://linkinghub.elsevier.com/retrieve/pii/S1568494622004173) |                      |
 | 2022 | IEEE TMM  | Purifying Low-light Images via Near-Infrared Enlightened Image | [pdf](https://ieeexplore.ieee.org/document/9999306/) |                      |
+| 2022 | IEEE TNNLS  | DRLIE: Flexible Low-Light Image Enhancement via Disentangled Representations | [pdf](https://ieeexplore.ieee.org/document/9833451/) |                      |
 | 2023 | Information Fusion      | A Mutually Boosting Dual Sensor Computational Camera for High Quality Dark Videography | [pdf](https://doi.org/10.1016/j.inffus.2023.01.013) [code](https://github.com/jarrycyx/dual-channel-low-light-video-public) | DCMAN                |
 | 2023 | Pattern Recognit.      | TreEnhance: A tree search method for low-light image enhancement | [pdf](https://www.sciencedirect.com/science/article/pii/S0031320322007282?via%3Dihub) [code](https://github.com/OcraM17/TreEnhance) | TreEnhance                |
 | 2023 | AAAI                    | Ultra-high-definition low-light image enhancement: A benchmark and transformer-based method | [pdf](https://arxiv.org/abs/2212.11548) [code](https://github.com/TaoWangzj/LLFormer) [web](https://taowangzj.github.io/projects/LLFormer/) |                      |
 | 2023 | AAAI                    | Low-Light Video Enhancement with Synthetic Event Guidance | [pdf](https://arxiv.org/abs/2208.11014) [code](https://gitee.com/mindspore/models/tree/master/research/cv/LLVE-SEG) |                      |
-
+| 2023 | CVPR                    | DNF: Decouple and feedback network for seeing in the dark | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Jin_DNF_Decouple_and_Feedback_Network_for_Seeing_in_the_Dark_CVPR_2023_paper.html) [code](https://github.com/srameo/dnf) | DNF |
+| 2023 | CVPR                    | Learning a simple low-light image enhancer from paired low-light instances | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Fu_Learning_a_Simple_Low-Light_Image_Enhancer_From_Paired_Low-Light_Instances_CVPR_2023_paper.html) [code](https://github.com/zhenqifu/pairlie) | PairLIE |
+| 2023 | CVPR                    | Learning semantic-aware knowledge guidance for low-light image enhancement | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Wu_Learning_Semantic-Aware_Knowledge_Guidance_for_Low-Light_Image_Enhancement_CVPR_2023_paper.html) [code](https://github.com/langmanbusi/semantic-aware-low-light-image-enhancement) |  SKF |
+| 2023 | CVPR                    | Low-light image enhancement via structure modeling and guidance | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Low-Light_Image_Enhancement_via_Structure_Modeling_and_Guidance_CVPR_2023_paper.html) | |
+| 2023 | CVPR                    | Physics-guided ISO-Dependent sensor noise modeling for extreme low-light photography | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html) [code](https://github.com/happycaoyue/LLD) | LLD |
+| 2023 | CVPR                    | Visibility constrained wide-band illumination spectrum design for seeing-in-the-dark | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Niu_Visibility_Constrained_Wide-Band_Illumination_Spectrum_Design_for_Seeing-in-the-Dark_CVPR_2023_paper.html) [code](https://github.com/myniuuu/vcsd)| VCSD |
 
 ### HE-based methods
 
