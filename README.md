@@ -2,10 +2,7 @@
 
 **This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics, blogs and so on.**
 
-**Maintained by:** [Zhihong Zhang](https://github.com/dawnlh)
-
 Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues)
-
 
 
 ## Introduction
@@ -77,7 +74,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2021 | IEEE PAMI | Low-Light Image and Video Enhancement Using Deep Learning: A Survey | [pdf](https://doi.org/10.1109/TPAMI.2021.3126387)            |            |
 | 2022 | ArXiv     | Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond | [pdf](http://arxiv.org/abs/2212.10772) [code](https://github.com/shenzheng2000/llie_survey) |            |
 | 2023 | ArXiv     | DarkVision: A Benchmark for Low-Light Image/Video Perception | [pdf](https://arxiv.org/abs/2301.06269)                      | DarkVision |
-
+| 2023 | Signal Process. | A comprehensive experiment-based review of low-light image enhancement methods and benchmarking low-light image quality assessment  | [pdf](https://linkinghub.elsevier.com/retrieve/pii/S0165168422003607) |            |
 
 
 ## Methods
@@ -163,13 +160,19 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2023 | Information Fusion      | A Mutually Boosting Dual Sensor Computational Camera for High Quality Dark Videography | [pdf](https://doi.org/10.1016/j.inffus.2023.01.013) [code](https://github.com/jarrycyx/dual-channel-low-light-video-public) | DCMAN                |
 | 2023 | Pattern Recognit.      | TreEnhance: A tree search method for low-light image enhancement | [pdf](https://www.sciencedirect.com/science/article/pii/S0031320322007282?via%3Dihub) [code](https://github.com/OcraM17/TreEnhance) | TreEnhance                |
 | 2023 | AAAI                    | Ultra-high-definition low-light image enhancement: A benchmark and transformer-based method | [pdf](https://arxiv.org/abs/2212.11548) [code](https://github.com/TaoWangzj/LLFormer) [web](https://taowangzj.github.io/projects/LLFormer/) |                      |
-| 2023 | AAAI                    | Low-Light Video Enhancement with Synthetic Event Guidance | [pdf](https://arxiv.org/abs/2208.11014) [code](https://gitee.com/mindspore/models/tree/master/research/cv/LLVE-SEG) |                      |
+| 2023 | AAAI                    | Low-Light Video Enhancement with Synthetic Event Guidance | [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25257) [code](https://gitee.com/mindspore/models/tree/master/research/cv/LLVE-SEG) |                      |
+| 2023 | AAAI                    | Polarization-Aware Low-Light Image Enhancement | [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25486) [code](https://gitee.com/mindspore/models/tree/master/research/cv/LLVE-SEG) |                      |
 | 2023 | CVPR                    | DNF: Decouple and feedback network for seeing in the dark | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Jin_DNF_Decouple_and_Feedback_Network_for_Seeing_in_the_Dark_CVPR_2023_paper.html) [code](https://github.com/srameo/dnf) | DNF |
 | 2023 | CVPR                    | Learning a simple low-light image enhancer from paired low-light instances | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Fu_Learning_a_Simple_Low-Light_Image_Enhancer_From_Paired_Low-Light_Instances_CVPR_2023_paper.html) [code](https://github.com/zhenqifu/pairlie) | PairLIE |
 | 2023 | CVPR                    | Learning semantic-aware knowledge guidance for low-light image enhancement | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Wu_Learning_Semantic-Aware_Knowledge_Guidance_for_Low-Light_Image_Enhancement_CVPR_2023_paper.html) [code](https://github.com/langmanbusi/semantic-aware-low-light-image-enhancement) |  SKF |
 | 2023 | CVPR                    | Low-light image enhancement via structure modeling and guidance | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Low-Light_Image_Enhancement_via_Structure_Modeling_and_Guidance_CVPR_2023_paper.html) | |
 | 2023 | CVPR                    | Physics-guided ISO-Dependent sensor noise modeling for extreme low-light photography | [pdf](https://openaccess.thecvf.com/content/CVPR2023/html/Cao_Physics-Guided_ISO-Dependent_Sensor_Noise_Modeling_for_Extreme_Low-Light_Photography_CVPR_2023_paper.html) [code](https://github.com/happycaoyue/LLD) | LLD |
 | 2023 | CVPR                    | Visibility constrained wide-band illumination spectrum design for seeing-in-the-dark | [pdf](http://openaccess.thecvf.com/content/CVPR2023/html/Niu_Visibility_Constrained_Wide-Band_Illumination_Spectrum_Design_for_Seeing-in-the-Dark_CVPR_2023_paper.html) [code](https://github.com/myniuuu/vcsd)| VCSD |
+| 2023 | IEEE TMM    | Glow in the Dark: Low-Light Image Enhancement with External Memory | [pdf](https://ieeexplore.ieee.org/document/10177254/) [code](https://github.com/Lineves7/EMNet) |   EMNet   |
+| 2023 | Mach. Vision Appl.  | LDNet: low-light image enhancement with joint lighting and denoising | [pdf](https://link.springer.com/10.1007/s00138-022-01365-z) | LDNet   |
+| 2023 | IEEE TPAMI | Learning With Nested Scene Modeling and Cooperative Architecture Search for Low-Light Vision | [pdf](https://ieeexplore.ieee.org/document/9914672/) [code](https://github.com/vis-opt-group/ruas) | RUAS   |
+| 2023 | IEEE TIP | TSDN: Two-Stage Raw Denoising in the Dark | [pdf](https://ieeexplore.ieee.org/document/9914672/) | TSDN   |
+| 2023 | IEEE TIP | Unsupervised Low-Light Video Enhancement with Spatial-Temporal Co-attention Transformer | [pdf](https://ieeexplore.ieee.org/document/10210621/)  | LightenFormer  |
 
 ### HE-based methods
 
