@@ -15,13 +15,13 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 - [Highlights](#highlights)
 - [Datasets](#datasets)
-- [Review and Benchmark](#Review-and-Benchmark)
+- [Review and Benchmark](#review-and-benchmark)
 - [Methods](#methods)
   * [Learning-based methods](#learning-based-methods)
   * [HE-based methods](#he-based-methods)
   * [Retinex-based methods](#retinex-based-methods)
   * [Other methods](#other-methods)
-- [Related Works](#Related-Works)
+- [Related Works](#related-works)
 - [Metrics](#metrics)
 - [Reference](#reference)
 
@@ -47,7 +47,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 |  [DID](https://openaccess.thecvf.com/content/ICCV2023/papers/Fu_Dancing_in_the_Dark_A_Benchmark_towards_General_Low-light_Video_ICCV_2023_paper.pdf)  |  A high-quality low-light video dataset with multiple exposures and cameras  | [link](https://github.com/ciki000/DID#dancing-in-the-dark-a-benchmark-towards-general-low-light-video-enhancement) |
 |               DPED                | DSLR-quality photos on mobile devices with deep convolutional networks |          [link](http://people.ee.ethz.ch/~ihnatova)          |
 |           VIP-LowLight            |  Eight Natural Images Captured in Very Low-Light Conditions  | [link](https://uwaterloo.ca/vision-image-processing-lab/research-demos/vip-lowlight-dataset) |
-|              ReNOIR               | RENOIR - A Dataset for Real Low-Light Image Noise Reduction  | [link]([http://ani.stat.fsu.edu/~abarbu/Renoir.html](http://adrianbarburesearch.blogspot.com/p/renoir-dataset.html)) |
+|              ReNOIR               | RENOIR - A Dataset for Real Low-Light Image Noise Reduction  | [link](http://adrianbarburesearch.blogspot.com/p/renoir-dataset.html) |
 |   [LLIV-Phone](https://arxiv.org/abs/2104.10729)   |  The images and videos are taken by various phones' cameras under diverse illumination conditions and scenes | [link](https://drive.google.com/file/d/1QS4FgT5aTQNYy-eHZ_A89rLoZgx_iysR/view?usp=sharing)
 |   [TM-DIED](https://sites.google.com/site/vonikakis/datasets/tm-died?authuser=0) | 222 JPEG photos constituting some of the most challenging cases for image enhancement and tone-mapping algorithms | [link](https://www.google.com/url?q=https%3A%2F%2Fwww.flickr.com%2Fgp%2F73847677%40N02%2FGRn3G6&sa=D&sntz=1&usg=AOvVaw3mOxOzBNN3OY1jKiRfVN7C) |
 | [DRV](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Seeing_Motion_in_the_Dark_ICCV_2019_paper.html) | 202	 paired raw low-light image Dataset | [link](https://github.com/cchen156/Seeing-Motion-in-the-Dark)
@@ -74,11 +74,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 | Year | Pub       | Paper                                                        | Link                                                         | Note       |
 | :--: | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 2021 | IJCV      | Benchmarking Low-Light Image Enhancement and Beyond          | [pdf](https://link.springer.com/article/10.1007%2Fs11263-020-01418-8) |            |
-| 2021 | IEEE PAMI | Low-Light Image and Video Enhancement Using Deep Learning: A Survey | [pdf](https://doi.org/10.1109/TPAMI.2021.3126387
-        
-        
-        
-        )            |            |
+| 2021 | IEEE PAMI | Low-Light Image and Video Enhancement Using Deep Learning: A Survey | [pdf](https://doi.org/10.1109/TPAMI.2021.3126387)            |            |
 | 2022 | ArXiv     | Low-Light Image and Video Enhancement: A Comprehensive Survey and Beyond | [pdf](http://arxiv.org/abs/2212.10772) [code](https://github.com/shenzheng2000/llie_survey) |            |
 | 2023 | ArXiv     | DarkVision: A Benchmark for Low-Light Image/Video Perception | [pdf](https://arxiv.org/abs/2301.06269)                      | DarkVision |
 | 2023 | Signal Process. | A comprehensive experiment-based review of low-light image enhancement methods and benchmarking low-light image quality assessment  | [pdf](https://linkinghub.elsevier.com/retrieve/pii/S0165168422003607) |            |
