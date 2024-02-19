@@ -176,8 +176,9 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2023 | IEEE TMM    | Glow in the Dark: Low-Light Image Enhancement with External Memory | [pdf](https://ieeexplore.ieee.org/document/10177254/) [code](https://github.com/Lineves7/EMNet) |   EMNet   |
 | 2023 | Mach. Vision Appl.  | LDNet: low-light image enhancement with joint lighting and denoising | [pdf](https://link.springer.com/10.1007/s00138-022-01365-z) | LDNet   |
 | 2023 | IEEE TPAMI | Learning With Nested Scene Modeling and Cooperative Architecture Search for Low-Light Vision | [pdf](https://ieeexplore.ieee.org/document/9914672/) [code](https://github.com/vis-opt-group/ruas) | RUAS   |
-| 2023 | IEEE TIP | TSDN: Two-Stage Raw Denoising in the Dark | [pdf](https://ieeexplore.ieee.org/document/9914672/) | TSDN   |
+| 2023 | IEEE TIP | TSDN: Two-Stage Raw Denoising in the Dark | [pdf](https://ieeexplore.ieee.org/abstract/document/10168136/) | TSDN   |
 | 2023 | IEEE TIP | Unsupervised Low-Light Video Enhancement with Spatial-Temporal Co-attention Transformer | [pdf](https://ieeexplore.ieee.org/document/10210621/)  | LightenFormer  |
+| 2023 | IEEE TCYB| Deep Perceptual Image Enhancement Network for Exposure Restoration | [pdf](https://ieeexplore.ieee.org/document/9693338/)  | DPIENet  |
 | 2023 | SIGGRAPH ASIA | Low-light Image Enhancement with Wavelet-based Diffusion Models | [pdf](https://arxiv.org/pdf/2306.00306.pdf) [code](https://github.com/JianghaiSCU/Diffusion-Low-Light) | DiffLL  |
 | 2023 | ACM MM | CLE Diffusion: Controllable Light Enhancement Diffusion Model | [pdf](https://arxiv.org/abs/2308.06725) [code](https://github.com/YuyangYin/CLEDiffusion) [web](https://yuyangyin.github.io/CLEDiffusion/) | CLE Diffusion  |
 | 2023 | ACM MM | FourLLIE: Boosting Low-Light Image Enhancement by Fourier Frequency Information | [pdf](https://arxiv.org/abs/2308.03033) [code](https://github.com/wangchx67/FourLLIE) | FourLLIE  |
@@ -193,6 +194,8 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2023 | ICCV  | Low-light image enhancement with multi-stage residue quantization and brightness-aware attention | [pdf](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Low-Light_Image_Enhancement_with_Multi-Stage_Residue_Quantization_and_Brightness-Aware_Attention_ICCV_2023_paper.pdf) [code](https://github.com/LiuYunlong99/RQ-LLIE) |   RQ-LLIE    |
 | 2023 | ICCV  | Retinexformer: One-stage retinex-based transformer for low-light image enhancement | [pdf](https://arxiv.org/abs/2303.06705) [code](https://github.com/caiyuanhao1998/Retinexformer) |   Retinexformer    |
 | 2023 | ICCV  | Lighting up NeRF via unsupervised decomposition and enhancement | [pdf](https://arxiv.org/abs/2307.10664) [code](https://github.com/onpix/LLNeRF) |   LLNeRF    |
+
+
 
 
 ### HE-based methods
