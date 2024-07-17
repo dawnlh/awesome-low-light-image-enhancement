@@ -39,11 +39,11 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 |              Dataset              |                         Brief intro                          |                           Website                            |
 | :-------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [SID](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Learning_to_See_CVPR_2018_paper.html) | Learning to see in the dark; <br />light level (outdoor scene 0.2 lux - 5 lux; indoor scene: 0.03 lux - 0.3 lux) |  [link](http://vladlen.info/publications/learning-see-dark)  |
-| [ExDARK](https://www.sciencedirect.com/science/article/abs/pii/S1077314218304296)  |  70000+ exclusively dark dataset | [github](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) |
+| [SID](https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Learning_to_See_CVPR_2018_paper.html) | Learning to see in the dark ; <br /> contains 5094 raw shortexposure images, each with a corresponding long-exposure reference image (illuminance level: outdoor scene 0.2 lux - 5 lux; indoor scene: 0.03 lux - 0.3 lux) |  [link](https://cchen156.github.io/SID.html)  |
+| [ExDARK](https://www.sciencedirect.com/science/article/abs/pii/S1077314218304296)  | A collection of 7,363 low-light images from very low-light environments to twilight (i.e 10 different conditions) with 12 object classes (similar to PASCAL VOC) annotated on both image class level and local object bounding boxes. | [github](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) |
 |    [LOL](https://arxiv.org/abs/1808.04560)   |     Deep Retinex Decomposition for Low-Light Enhancement     |      [link](https://daooshee.github.io/BMVC2018website)      |
 |  [SICE](https://ieeexplore.ieee.org/abstract/document/8259342/)   | A large-scale multi-exposure image dataset, which contains 589 elaborately selected high-resolution multi-exposure sequences with 4,413 images | [github](https://github.com/csjcai/SICE)     |
-| [MIT-Adobe FiveK](http://people.csail.mit.edu/vladb/photoadjust/db_imageadjust.pdf) | Learning Photographic Global Tonal Adjustment with 50000 Image Pairs;<br />(with ~4% low light raw images) |  [link](https://data.csail.mit.edu/graphics/fivek) |
+| [MIT-Adobe FiveK](http://people.csail.mit.edu/vladb/photoadjust/db_imageadjust.pdf) | Learning Photographic Global Tonal Adjustment; <br /> a dataset consisting of 5,000 photographs, with both the original RAW images straight from the camera and adjusted versions by 5 trained photographers|  [link](https://data.csail.mit.edu/graphics/fivek) |
 |  [DID](https://openaccess.thecvf.com/content/ICCV2023/papers/Fu_Dancing_in_the_Dark_A_Benchmark_towards_General_Low-light_Video_ICCV_2023_paper.pdf)  |  A high-quality low-light video dataset with multiple exposures and cameras  | [link](https://github.com/ciki000/DID#dancing-in-the-dark-a-benchmark-towards-general-low-light-video-enhancement) |
 |               DPED                | DSLR-quality photos on mobile devices with deep convolutional networks |          [link](http://people.ee.ethz.ch/~ihnatova)          |
 |           VIP-LowLight            |  Eight Natural Images Captured in Very Low-Light Conditions  | [link](https://uwaterloo.ca/vision-image-processing-lab/research-demos/vip-lowlight-dataset) |
@@ -195,7 +195,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2023 | ICCV  | Retinexformer: One-stage retinex-based transformer for low-light image enhancement | [pdf](https://arxiv.org/abs/2303.06705) [code](https://github.com/caiyuanhao1998/Retinexformer) |   Retinexformer    |
 | 2023 | ICCV  | Lighting up NeRF via unsupervised decomposition and enhancement | [pdf](https://arxiv.org/abs/2307.10664) [code](https://github.com/onpix/LLNeRF) |   LLNeRF    |
 | 2023 | PRICAI | Bootstrap diffusion model curve estimation for high resolution low-light image enhancement | [pdf](https://link.springer.com/chapter/10.1007/978-981-99-7025-4_6) |   BDCE    |
-
+| 2024 | IEEE Sens. Lett. | Integrating Graph Convolution Into a Deep Multilayer Framework for Low-Light Image Enhancement | [pdf](https://ieeexplore.ieee.org/document/10478172/) [code](https://github.com/santoshpanda1995/LightweightGCN-Model) |       |
 
 ### HE-based methods
 
