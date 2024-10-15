@@ -2,7 +2,7 @@
 
 **This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics and so on.**
 
-Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues) or directly pull request.
+Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues) or directly [pull request](https://github.com/dawnlh/awesome-low-light-image-enhancement/pulls).
 
 
 ## Introduction
@@ -195,7 +195,10 @@ Low light imaging and low light image enhancement have wild applications in our 
 | 2023 | ICCV  | Retinexformer: One-stage retinex-based transformer for low-light image enhancement | [pdf](https://arxiv.org/abs/2303.06705) [code](https://github.com/caiyuanhao1998/Retinexformer) |   Retinexformer    |
 | 2023 | ICCV  | Lighting up NeRF via unsupervised decomposition and enhancement | [pdf](https://arxiv.org/abs/2307.10664) [code](https://github.com/onpix/LLNeRF) |   LLNeRF    |
 | 2023 | PRICAI | Bootstrap diffusion model curve estimation for high resolution low-light image enhancement | [pdf](https://link.springer.com/chapter/10.1007/978-981-99-7025-4_6) |   BDCE    |
+| 2023 | Appl. Mach. Learn. | LoLi-IEA: low-light image enhancement algorithm | [pdf](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12675/1267512/LoLi-IEA-low-light-image-enhancement-algorithm/10.1117/12.2677422.short#_=_) [code](https://github.com/xingyumex/LoLi-IEA) |   LoLi-IEA    |
 | 2024 | IEEE Sens. Lett. | Integrating Graph Convolution Into a Deep Multilayer Framework for Low-Light Image Enhancement | [pdf](https://ieeexplore.ieee.org/document/10478172/) [code](https://github.com/santoshpanda1995/LightweightGCN-Model) |       |
+| 2025 | Digital Signal Process. | CDAN: Convolutional dense attention-guided network for low-light image enhancement | [pdf](https://www.sciencedirect.com/science/article/abs/pii/S1051200424004275) [code](https://github.com/SinaRaoufi/CDAN) |   CDAN    |
+
 
 ### HE-based methods
 
