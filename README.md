@@ -2,7 +2,7 @@
 
 **This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics and so on.**
 
-Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/dawnlh/low-light-image-enhancement-resources/issues) or directly [pull request](https://github.com/dawnlh/awesome-low-light-image-enhancement/pulls).
+Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/zhihongz/low-light-image-enhancement-resources/issues) or directly [pull request](https://github.com/zhihongz/awesome-low-light-image-enhancement/pulls).
 
 
 ## Introduction
