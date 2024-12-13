@@ -2,7 +2,7 @@
 
 **This is a resource list for low light image enhancement, including datasets, methods/codes/papers, metrics and so on.**
 
-Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/zhihongz/low-light-image-enhancement-resources/issues) or directly [pull request](https://github.com/zhihongz/awesome-low-light-image-enhancement/pulls).
+Looking forward to your sharing! You can come up with your ideas and suggestions in the [issue](https://github.com/zhihongz/awesome-low-light-image-enhancement/issues) or directly [pull request](https://github.com/zhihongz/awesome-low-light-image-enhancement/pulls).
 
 
 ## Introduction
@@ -295,7 +295,7 @@ Low light imaging and low light image enhancement have wild applications in our 
 
 
 
-## Reference
+## More reference
 
 - https://github.com/baidut/OpenCE
 - https://github.com/tiandaoxiaowu/image-enhancement-about-Retinex
